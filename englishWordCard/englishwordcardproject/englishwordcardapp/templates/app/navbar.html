@@ -1,1 +1,23 @@
-navbar helye
+{% load static %}
+
+<span class="headerImgWrapper">
+    <a href="{% url 'home' %}"><img id="headerImg" src="{% static 'img/gradCap.png' %}" alt="capicon"></a>
+</span>
+
+{% if user.is_authenticated %}
+
+<span class="navBtnWrappr">
+    <span>{{ user.username }}</span>
+    <a class="navBtn mr-1" href="{% url 'home' %}">Home</a>
+    <a class="navBtn" href="{% url 'logout_user' %}">Logout</a>
+</span>
+
+{% else %}
+
+<span class="navBtnWrappr">
+    <a class="navBtn mr-1" href="{% url 'home' %}">Home</a>
+    <a class="navBtn mr-1" href="{% url 'login_user' %}">Login</a>
+    <a class="navBtn" href="{% url 'signup_user' %}">Sign up</a>
+</span>
+
+{% endif %}

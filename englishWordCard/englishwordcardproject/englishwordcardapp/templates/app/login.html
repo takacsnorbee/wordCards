@@ -1,0 +1,16 @@
+{% extends 'app/base.html' %}
+
+{% block content %}
+
+<form action="" method="post">
+    {% csrf_token %}
+    <h3>Login</h3>
+    <label for="username">Username</label>
+    <input type="text" name="username" id="usernameInput">
+    <label for="password">Password</label>
+    <input type="password" name="password" id="passwordInput">
+    <button type="submit">Login</button>
+    {{ error }}
+</form>
+
+{% endblock %}
