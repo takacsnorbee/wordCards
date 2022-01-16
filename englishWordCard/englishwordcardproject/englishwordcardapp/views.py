@@ -60,3 +60,16 @@ def signup_user(request):
 def logout_user(request):
     logout(request)
     return redirect('home')
+
+
+def vegrehajt(request):
+    with open('szavakteszttxt.txt', encoding='utf8') as f:
+        for line in f:
+            print(line)
+            splitted_line = line.split('@')
+            print(splitted_line[0].strip())
+            print(splitted_line[1].strip())
+
+    return redirect('home')
+
+    
