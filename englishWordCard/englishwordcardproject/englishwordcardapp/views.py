@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
+from .models import Word, List_of_word
 
 
 def home(request):
@@ -62,14 +63,15 @@ def logout_user(request):
     return redirect('home')
 
 
-def vegrehajt(request):
-    with open('szavakteszttxt.txt', encoding='utf8') as f:
-        for line in f:
-            print(line)
-            splitted_line = line.split('@')
-            print(splitted_line[0].strip())
-            print(splitted_line[1].strip())
+#def vegrehajt(request):
+#     this_list = List_of_word.objects.get(list_name='basic_list')
+#     Word.objects.all().delete()
+#     with open('szavakteszttxt.txt', encoding='utf8') as f:
+#         for line in f:
+#             splitted_line = line.split('@')
+#             new_word = Word(word_away=splitted_line[0].strip(), word_home=splitted_line[1].strip(), list_of_word_id=this_list)
+#             new_word.save()
+#             print(new_word, new_word.word_away, new_word.word_home)
+#
+#     return redirect('home')
 
-    return redirect('home')
-
-    

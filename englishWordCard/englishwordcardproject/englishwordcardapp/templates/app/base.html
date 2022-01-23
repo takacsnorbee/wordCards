@@ -18,19 +18,22 @@
         <title>Word Cards App</title>
     </head>
     <body>
-        <div id="vueApp">
-            <header class="">
+        <div id="vue-app">
+            <header :class="{ 'dark-mode': darkMode }">
 
                 {% include 'app/navbar.html' %}
 
             </header>
-            <div class="">
+            <div class="content-wrapper">
 
                 {% block content %}
                 {% endblock %}
 
             </div>
         </div>
+        <noscript>
+            Word Cards app does not work properly because your browser does not support JavaScript!
+        </noscript>
      <!--    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
                 integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
                 crossorigin="anonymous"></script>

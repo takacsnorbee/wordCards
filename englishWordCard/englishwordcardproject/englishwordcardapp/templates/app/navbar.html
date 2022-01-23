@@ -1,23 +1,36 @@
 {% load static %}
 
-<span class="headerImgWrapper">
-    <a href="{% url 'home' %}"><img id="headerImg" src="{% static 'img/gradCap.png' %}" alt="capicon"></a>
+<span class="header-img-wrapper">
+    <a href="{% url 'home' %}"><img id="header-img" src="{% static 'img/gradCap.png' %}" alt="capicon"></a>
 </span>
+
+<button @click.prevent="isEnglish=!isEnglish" id="set-lang-btn">eng</button>
+<button @click.prevent="darkMode=!darkMode" id="set-dark-mode-btn">dark</button>
 
 {% if user.is_authenticated %}
 
-<span class="navBtnWrappr">
+<span v-if="isEnglish" class="nav-btn-wrapper">
     <span>{{ user.username }}</span>
-    <a class="navBtn mr-1" href="{% url 'home' %}">Home</a>
-    <a class="navBtn" href="{% url 'logout_user' %}">Logout</a>
+    <a class="nav-btn mr-1" href="{% url 'home' %}">Home</a>
+    <a class="nav-btn" href="{% url 'logout_user' %}">Logout</a>
+</span>
+<span v-else class="nav-btn-wrapper">
+    <span>{{ user.username }}</span>
+    <a class="nav-btn mr-1" href="{% url 'home' %}">Kezdőlap</a>
+    <a class="nav-btn" href="{% url 'logout_user' %}">Kilépés</a>
 </span>
 
 {% else %}
 
-<span class="navBtnWrappr">
-    <a class="navBtn mr-1" href="{% url 'home' %}">Home</a>
-    <a class="navBtn mr-1" href="{% url 'login_user' %}">Login</a>
-    <a class="navBtn" href="{% url 'signup_user' %}">Sign up</a>
+<span v-if="isEnglish" class="nav-btn-wrapper">
+    <a class="nav-btn mr-1" href="{% url 'home' %}">Home</a>
+    <a class="nav-btn mr-1" href="{% url 'login_user' %}">Login</a>
+    <a class="nav-btn" href="{% url 'signup_user' %}">Sign up</a>
+</span>
+<span v-else class="nav-btn-wrapper">
+    <a class="nav-btn mr-1" href="{% url 'home' %}">Kezdőlap</a>
+    <a class="nav-btn mr-1" href="{% url 'login_user' %}">Bejelentkezés</a>
+    <a class="nav-btn" href="{% url 'signup_user' %}">Regisztráció</a>
 </span>
 
 {% endif %}

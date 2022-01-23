@@ -2,15 +2,21 @@
 
 {% block content %}
 
-<form action="" method="post">
-    {% csrf_token %}
-    <h3>Login</h3>
-    <label for="username">Username</label>
-    <input type="text" name="username" id="usernameInput">
-    <label for="password">Password</label>
-    <input type="password" name="password" id="passwordInput">
-    <button type="submit">Login</button>
-    {{ error }}
-</form>
+<div class="log-sign-wrapper">
+    <form action="" method="post">
+        {% csrf_token %}
+        <h3 v-if="isEnglish" >Login</h3>
+        <h3 v-else>Bejelentkezés</h3>
+        <label v-if="isEnglish" for="username">Username</label>
+        <label v-else for="username">Felhasználónév</label>
+        <input type="text" name="username" id="usernameInput">
+        <label v-if="isEnglish" for="password">Password</label>
+        <label v-else for="password">Jelszó</label>
+        <input type="password" name="password" id="passwordInput">
+        <button v-if="isEnglish" type="submit">Login</button>
+        <button v-else type="submit">Bejelentkezés</button>
+        {{ error }}
+    </form>
+</div>
 
 {% endblock %}

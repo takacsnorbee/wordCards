@@ -1,31 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 10px;
 }
 
-body, #vueApp {
+body, #vue-app {
     height: 100vh;
     width: 100vw;
 }
 
 header {
     font-size: 2.2rem;
-    padding: 2rem;
-    padding-right: 3rem;
+    padding: 2rem 0;
     display: flex;
+    background-color: rgb(240, 146, 35);
+    position: absolute;
+    width: 100vw;
 }
 
-.navBtn, .navBtn:active, .navBtn:visited {
+.content-wrapper {
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 64px;
+}
+
+.nav-btn, .nav-btn:active, .nav-btn:visited {
     text-decoration: none;
     border: 1px solid black;
-    color: black;
+    color: inherit;
     padding: .3rem;
 }
 
-.navBtn:hover {
+.nav-btn:hover {
     text-decoration: underline;
 }
 
-.navBtnWrappr {
+.nav-btn-wrapper {
     text-align: end;
 }
 
@@ -33,10 +46,26 @@ header {
     margin-right: 1rem!important;
 }
 
-.headerImgWrapper {
+.header-img-wrapper {
     flex-grow: 1;
 }
 
-#headerImg {
+#header-img {
     height: 20px;
+}
+
+.dark-mode {
+    background-color: rgb(39, 3, 58);
+    color: white;
+}
+
+.log-sign-wrapper {
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }

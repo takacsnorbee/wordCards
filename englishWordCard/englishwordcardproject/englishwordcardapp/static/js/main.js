@@ -1,7 +1,15 @@
 const app = new Vue({
-    el: '#vueApp',
+    el: '#vue-app',
     delimiters: ['[[',']]'],
     data: {
-      message: 'Hello Vue!'
+      message: 'Hello Vue!',
+      isEnglish: true,
+      darkMode: false,
+    },
+    computed: {
+      
+    },
+    watch: {
+      
     }
   })
