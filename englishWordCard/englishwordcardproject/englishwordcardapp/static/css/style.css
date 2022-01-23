@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: sans-serif!important;
 }
 
 html {
@@ -59,7 +60,7 @@ header {
     color: white;
 }
 
-.log-sign-wrapper {
+.login-wrapper, .signup-wrapper {
     height: 50%;
     width: 50%;
     margin: auto;
@@ -68,4 +69,28 @@ header {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+
+.log-h3, .signup-h3 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.login-inputs-group, .signup-inputs-group {
+    width: 50%;
+    transform: translateX(50%);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.login-inputs-group > input, .signup-inputs-group > input,
+.login-inputs-group > button, .signup-inputs-group > button {
+    font-size: 2rem;
+    margin-top: 0.8rem;
+}
+
+.w-100 {
+    width: 100%;
 }
