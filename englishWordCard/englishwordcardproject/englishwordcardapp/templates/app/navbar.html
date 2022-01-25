@@ -4,8 +4,8 @@
     <a href="{% url 'home' %}"><img id="header-img" src="{% static 'img/gradCap.png' %}" alt="capicon"></a>
 </span>
 
-<button @click.prevent="isEnglish=!isEnglish" id="set-lang-btn">eng</button>
-<button @click.prevent="darkMode=!darkMode" id="set-dark-mode-btn">dark</button>
+<button @click.prevent="setLanguage" id="set-lang-btn">eng</button>
+<button @click.prevent="setDarkMode" id="set-dark-mode-btn">dark</button>
 
 {% if user.is_authenticated %}
 
