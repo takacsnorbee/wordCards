@@ -1,3 +1,4 @@
+from django.http import JsonResponse
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
@@ -62,6 +63,15 @@ def signup_user(request):
 def logout_user(request):
     logout(request)
     return redirect('home')
+
+
+def get_common_list(request):
+    #print(request.META)
+    #print(request.META['CSRF_COOKIE'])
+    #print(request.headers)
+    temp_list = List_of_word.objects.get(list_name='basic_list')
+    temp_words = list(Word.objects.filter(list_of_word_id=temp_list.id).values('word_away', 'word_home', 'sentence_away', 'sentence_home', 'word_description', 'learnt', 'synonyms'))
+    return JsonResponse({'words_result': temp_words})
 
 
 #def vegrehajt(request):

@@ -5,6 +5,7 @@ const app = new Vue({
       isEnglish: true,
       darkMode: false,
       isLoading: true,
+      commonList: {}
     },
     component: {
       loader: 'loading-screen'
@@ -20,6 +21,20 @@ const app = new Vue({
       setLanguage() {
         this.isEnglish = !this.isEnglish;
         window.localStorage.setItem("isEnglish", `${this.isEnglish}`);
+      },
+      getCommonList() {
+        this.isLoading = true;
+        axios.get('/getCommonList')
+          .then(function (response) {
+            app.commonList = response.data;
+            console.log(response);
+          })
+          .catch(function (error) {
+            console.log(error);
+          })
+          .then(function () {
+            app.isLoading = false;
+          });
       }
     },
     watch: {
