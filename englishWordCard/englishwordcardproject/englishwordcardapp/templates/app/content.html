@@ -1,0 +1,12 @@
+{% extends 'app/base.html' %}
+
+{% block content %}
+
+    {% if user.is_authenticated %}
+        <div>hello user</div>
+    {% else %}
+        <div>hello visitor</div>
+        <button @click="getCommonList">adatok</button>
+    {% endif %}
+
+{% endblock %}

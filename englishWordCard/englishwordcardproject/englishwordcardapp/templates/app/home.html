@@ -2,11 +2,25 @@
 
 {% block content %}
 
-    {% if user.is_authenticated %}
-        <div>hello user</div>
-    {% else %}
-        <div>hello visitor</div>
-        <button @click="getCommonList">adatok</button>
-    {% endif %}
+    <div class="home-content-wrapper" v-for="(content, i) in homeContent" :style="{paddingTop:'8rem'}">
+        <template v-if="i%2!=0">
+            <div>
+                <img class="home-content-img" :src="content.img_src" alt="pic">
+            </div>
+            <div>
+                <h3>[[content.title_eng]]</h3>
+                <p>[[content.text_eng]]</p>
+            </div>
+        </template>
+        <template v-else>
+            <div>
+                <h3>[[content.title_eng]]</h3>
+                <p>[[content.text_eng]]</p>
+            </div>
+            <div>
+                <img class="home-content-img" :src="content.img_src" alt="pic">
+            </div>
+        </template>
+    </div>
 
 {% endblock %}

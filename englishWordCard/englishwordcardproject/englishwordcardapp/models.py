@@ -25,3 +25,13 @@ class Word(models.Model):
     def __str__(self):
         return self.word_away
 
+
+class Home_content(models.Model):
+    title_eng = models.CharField(max_length=100, blank=False)
+    title_hun = models.CharField(max_length=100, blank=False)
+    text_eng = models.TextField(max_length=1000, blank=False)
+    text_hun = models.TextField(max_length=1000, blank=False)
+    img_src = models.CharField(max_length=100, blank=False)
+
+    def __str__(self):
+        return self.title_eng

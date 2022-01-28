@@ -5,13 +5,14 @@ const app = new Vue({
       isEnglish: true,
       darkMode: false,
       isLoading: true,
-      commonList: {}
+      commonList: [],
+      homeContent: [],
     },
     component: {
-      loader: 'loading-screen'
+      loader: 'loading-screen',
     },
     computed: {
-      
+
     },
     methods: {
       setDarkMode() {
@@ -27,7 +28,6 @@ const app = new Vue({
         axios.get('/getCommonList')
           .then(function (response) {
             app.commonList = response.data;
-            console.log(response);
           })
           .catch(function (error) {
             console.log(error);
@@ -38,15 +38,24 @@ const app = new Vue({
       }
     },
     watch: {
-      
     },
     mounted() {
-      this.isLoading = false;
+      this.isLoading = true;
+
+      axios.get('/getHomeContent')
+        .then(function (response) {
+          app.homeContent = [...response.data.home_content];
+        })
+        .catch(function (error) {
+          console.log(error);
+        })
+
       if(window.localStorage.darkMode) {
         this.darkMode = JSON.parse(window.localStorage.getItem('darkMode'));
       }
       if(window.localStorage.isEnglish) {
         this.isEnglish = JSON.parse(window.localStorage.getItem('isEnglish'));
       }
+      this.isLoading = false;
     }
   })

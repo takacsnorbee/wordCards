@@ -1,0 +1,40 @@
+{% load static %}
+    <div id="home-nav-icon-wrapper">
+        <a href="{% url 'home' %}"><img id="home-nav-icon" src="{% static 'img/icon-big.svg' %}" alt="capicon"></a>
+    </div>
+
+    <div id="home-nav-h-wrapper">
+        <div>
+            <h1 class="home-nav-h1">[[isEnglish ? 'Learn new words' : 'Tanulj új szavakat']]</h1>
+            <br>
+            <h3 class="home-nav-h3">[[isEnglish ? 'with the memory card method' : 'Memória kártyákkal']]</h3>
+        </div>
+    </div>
+
+    <div id="home-nav-btn-wrapper">
+        <div>
+            <div @click.prevent="setLanguage" class="home-lang-btn">
+                <img v-if="!isEnglish" src="{% static 'img/uk-flag.svg' %}" alt="en-flag">
+                <img v-else src="{% static 'img/hun-flag.svg' %}" alt="hun-flag">
+            </div>
+            <div class="home-dark-btn">
+                <switch-button v-model="darkMode" @toggle-dark-mode="setDarkMode"></switch-button>
+            </div>
+        </div>
+        <div>
+            <div v-if="isEnglish" class="home-nav-btn">
+                <a class="" href="{% url 'app_content' %}">Word Cards</a>
+                <a class="" href="{% url 'login_user' %}">Login</a>
+                <a class="" href="{% url 'signup_user' %}">Sign up</a>
+            </div>
+            <div v-else class="home-nav-btn">
+                <a class="" href="{% url 'app_content' %}">Szókártyák</a>
+                <a class="" href="{% url 'login_user' %}">Bejelentkezés</a>
+                <a class="" href="{% url 'signup_user' %}">Regisztráció</a>
+            </div>
+        </div>
+        <div>
+            értékelés
+        </div>
+    </div>
+

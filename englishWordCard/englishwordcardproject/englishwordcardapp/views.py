@@ -2,11 +2,17 @@ from django.http import JsonResponse
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
-from .models import Word, List_of_word
+from .models import Word, List_of_word, Home_content
 
 
 def home(request):
-    return render(request, 'app/home.html')
+    if request.user.is_authenticated:
+        return redirect('app_content')
+    return render(request, 'app/home.html', {'home_site': True})
+
+
+def app_content(request):
+    return render(request, 'app/content.html')
 
 
 def login_user(request):
@@ -74,7 +80,12 @@ def get_common_list(request):
     return JsonResponse({'words_result': temp_words})
 
 
-#def vegrehajt(request):
+def get_home_content(request):
+    temp_content = list(Home_content.objects.all().values('title_eng', 'title_hun', 'text_eng', 'text_hun', 'img_src'))
+    return JsonResponse({'home_content': temp_content})
+
+
+# def vegrehajt(request):
 #     this_list = List_of_word.objects.get(list_name='basic_list')
 #     Word.objects.all().delete()
 #     with open('szavakteszttxt.txt', encoding='utf8') as f:
@@ -83,6 +94,6 @@ def get_common_list(request):
 #             new_word = Word(word_away=splitted_line[0].strip(), word_home=splitted_line[1].strip(), list_of_word_id=this_list)
 #             new_word.save()
 #             print(new_word, new_word.word_away, new_word.word_home)
-#
+
 #     return redirect('home')
 

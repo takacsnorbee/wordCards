@@ -1,7 +1,7 @@
 {% load static %}
 
 <span class="header-img-wrapper">
-    <a href="{% url 'home' %}"><img id="header-img" src="{% static 'img/gradCap.png' %}" alt="capicon"></a>
+    <a href="{% url 'home' %}"><img id="header-img" src="{% static 'img/icon-big.svg' %}" alt="capicon"></a>
 </span>
 
 <button @click.prevent="setLanguage" id="set-lang-btn">eng</button>
@@ -12,11 +12,13 @@
 <span v-if="isEnglish" class="nav-btn-wrapper">
     <span>{{ user.username }}</span>
     <a class="nav-btn mr-1" href="{% url 'home' %}">Home</a>
+    <a class="nav-btn mr-1" href="{% url 'app_content' %}">Word Cards</a>
     <a class="nav-btn" href="{% url 'logout_user' %}">Logout</a>
 </span>
 <span v-else class="nav-btn-wrapper">
     <span>{{ user.username }}</span>
     <a class="nav-btn mr-1" href="{% url 'home' %}">Kezdőlap</a>
+    <a class="nav-btn mr-1" href="{% url 'app_content' %}">Szókártyák</a>
     <a class="nav-btn" href="{% url 'logout_user' %}">Kilépés</a>
 </span>
 
@@ -24,11 +26,13 @@
 
 <span v-if="isEnglish" class="nav-btn-wrapper">
     <a class="nav-btn mr-1" href="{% url 'home' %}">Home</a>
+    <a class="nav-btn mr-1" href="{% url 'app_content' %}">Word Cards</a>
     <a class="nav-btn mr-1" href="{% url 'login_user' %}">Login</a>
     <a class="nav-btn" href="{% url 'signup_user' %}">Sign up</a>
 </span>
 <span v-else class="nav-btn-wrapper">
     <a class="nav-btn mr-1" href="{% url 'home' %}">Kezdőlap</a>
+    <a class="nav-btn mr-1" href="{% url 'app_content' %}">Szókártyák</a>
     <a class="nav-btn mr-1" href="{% url 'login_user' %}">Bejelentkezés</a>
     <a class="nav-btn" href="{% url 'signup_user' %}">Regisztráció</a>
 </span>
