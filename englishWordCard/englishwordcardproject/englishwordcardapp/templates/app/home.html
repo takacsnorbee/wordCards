@@ -1,7 +1,7 @@
 {% extends 'app/base.html' %}
 
 {% block content %}
-
+<div class="home-content-wrapper-outer" id="this-is-home-page">
     <div class="home-content-wrapper" v-for="(content, i) in homeContent">
         <template v-if="i%2!=0">
             <div>
@@ -37,5 +37,5 @@
             <a href="{% url 'signup_user' %}" class="home-content-aside-link">[[isEnglish ? "Haven't you registered yet? Click here to registration!" : "Még nem regisztráltál? Kattints ide a regisztrációhoz"]]</a>
         </div>
     </div>
-
+</div>
 {% endblock %}

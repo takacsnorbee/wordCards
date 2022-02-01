@@ -42,22 +42,46 @@ header {
 }
 
 .content-wrapper {
-    padding-top: 65px;
+    height: 100vh;
+    padding-top: 90px;
+    background-color: var(--lighter-orange);
 }
 
-.nav-btn, .nav-btn:active, .nav-btn:visited {
-    text-decoration: none;
-    border: 1px solid black;
-    color: inherit;
-    padding: .3rem;
+/* nav */
+
+.nav-middle-btn-wrapper {
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: left;
 }
 
-.nav-btn:hover {
-    text-decoration: underline;
+.nav-right-btn-wrapper {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.nav-btn-wrapper {
-    text-align: end;
+.nav-lang-btn, .nav-dark-btn, .nav-user-btn {
+    display: inline-block;
+    width: 6rem;
+    height: 3rem;
+    margin-right: 4rem;
+}
+
+.nav-user-btn {
+    display: flex;
+    align-items: center;
+}
+
+.nav-lang-btn > img {
+    max-height: 100%;
+}
+
+.nav-btn {
+    margin-right: 5rem;
 }
 
 .mr-1 {
@@ -72,12 +96,22 @@ header {
     margin-left: 10rem!important;
 }
 
-.header-img-wrapper {
-    flex-grow: 1;
+.nav-icon-wrapper {
+    width: 15%;
+    height: 50px;
 }
 
-#header-img {
-    height: 20px;
+#nav-icon {
+    height: 85px;
+    padding: 0 2rem;
+}
+
+.nav-middle-btn-wrapper > a, .nav-middle-btn-wrapper > a:hover,
+.nav-middle-btn-wrapper > a:active, .nav-middle-btn-wrapper > a:visited,
+.nav-middle-btn-wrapper > span {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .dark-mode {
@@ -86,8 +120,13 @@ header {
 
 /* login & signup */
 
+.login-form, .signup-form {
+    width: 50%;
+    max-width: 70%;
+}
+
 .login-wrapper, .signup-wrapper {
-    height: 50%;
+    height: 65%;
     width: 50%;
     margin: auto;
     position: relative;
@@ -95,6 +134,16 @@ header {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-wrapper > div:nth-child(1), .signup-wrapper > div:nth-child(1) {
+    position: absolute;
+    top: -100px;
+    left: -80px;
 }
 
 .log-h3, .signup-h3 {
@@ -159,6 +208,7 @@ header {
 .home-nav-btn > a:active {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 #home-nav-btn-wrapper > div {
@@ -167,7 +217,7 @@ header {
 
 #home-nav-btn-wrapper > div:nth-child(1) {
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
 }
 
 #home-nav-btn-wrapper > div:nth-child(2),
@@ -188,6 +238,7 @@ header {
     display: inline-block;
     width: 6rem;
     height: 3rem;
+    margin-right: 4rem;
 }
 
 .home-lang-btn > img {
@@ -198,7 +249,11 @@ header {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: end;
+}
+
+.home-nav-pipe {
+    margin: 0 1rem;
 }
 
 /* Home content */
@@ -206,6 +261,10 @@ header {
 .home-content-img {
     height: 50vh;
     width: 30vw;
+}
+
+.home-content-wrapper-outer {
+    padding-top: 65px;
 }
 
 .home-content-wrapper {

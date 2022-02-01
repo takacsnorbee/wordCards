@@ -8,11 +8,17 @@ from .models import Word, List_of_word, Home_content
 def home(request):
     if request.user.is_authenticated:
         return redirect('app_content')
-    return render(request, 'app/home.html', {'home_site': True})
+    return render(request, 'app/home.html')
 
 
 def app_content(request):
     return render(request, 'app/content.html')
+    # try:
+    #     User.objects.get(username=request.user)
+    #     user_id = request.user.id
+    #     return render(request, 'app/content.html')
+    # except:
+    #     return render(request, 'app/content.html')
 
 
 def login_user(request):
@@ -72,9 +78,9 @@ def logout_user(request):
 
 
 def get_common_list(request):
-    #print(request.META)
     #print(request.META['CSRF_COOKIE'])
     #print(request.headers)
+    # print(User.objects.get(username=request.user))
     temp_list = List_of_word.objects.get(list_name='basic_list')
     temp_words = list(Word.objects.filter(list_of_word_id=temp_list.id).values('word_away', 'word_home', 'sentence_away', 'sentence_home', 'word_description', 'learnt', 'synonyms'))
     return JsonResponse({'words_result': temp_words})

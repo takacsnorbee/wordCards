@@ -22,15 +22,12 @@
             </div>
         </div>
         <div>
-            <div v-if="isEnglish" class="home-nav-btn">
-                <a class="" href="{% url 'app_content' %}">Word Cards</a>
-                <a class="" href="{% url 'login_user' %}">Login</a>
-                <a class="" href="{% url 'signup_user' %}">Sign up</a>
-            </div>
-            <div v-else class="home-nav-btn">
-                <a class="" href="{% url 'app_content' %}">Szókártyák</a>
-                <a class="" href="{% url 'login_user' %}">Bejelentkezés</a>
-                <a class="" href="{% url 'signup_user' %}">Regisztráció</a>
+            <div class="home-nav-btn">
+                <a href="{% url 'app_content' %}">[[isEnglish ? 'Word Cards' : 'Szókártyák']]</a>
+                <span class="home-nav-pipe">&#124;</span>
+                <a href="{% url 'login_user' %}">[[isEnglish ? 'Login' : 'Bejelentkezés']]</a>
+                <span class="home-nav-pipe">&#124;</span>
+                <a class="mr-1" href="{% url 'signup_user' %}">[[isEnglish ? 'Sign up' : 'Regisztráció']]</a>
             </div>
         </div>
         <div>

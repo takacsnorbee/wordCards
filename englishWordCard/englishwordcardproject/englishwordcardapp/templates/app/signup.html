@@ -1,31 +1,36 @@
 {% extends 'app/base.html' %}
-
+{% load static %}
 {% block content %}
 
-<div class="signup-wrapper">
-    <form action="" method="post">
-        {% csrf_token %}
-        <h3 class="signup-h3">[[isEnglish ? 'Sign Up' : 'Regisztráció']]</h3>
-        <div class="signup-inputs-group">
-            <label for="username">[[isEnglish ? 'Username' : 'Felhasználónév']]</label>
-            <br>
-            <input class="form-input w-100" type="text" name="username" id="usernameInput">
+<div class="content-wrapper">
+    <div class="signup-wrapper">
+        <div>
+            <img id="signup-icon" src="{% static 'img/icon-big.svg' %}" alt="form-icon">
         </div>
-        <div class="signup-inputs-group">
-            <label for="password1">[[isEnglish ? 'Password' : 'Jelszó']]</label>
-            <br>
-            <input class="form-input w-100" type="password" name="password1" id="passwordInput1">
-        </div>
-        <div class="signup-inputs-group">
-            <label for="password2">[[isEnglish ? 'Password again' : 'Jelszó ismét']]</label>
-            <br>
-            <input class="form-input w-100" type="password" name="password2" id="passwordInput2">
-        </div>
-        <div class="signup-inputs-group">
-            <button type="submit" class="w-100">[[isEnglish ? 'Sign Up' : 'Regisztráció']]</button>
-        </div>
-        {{ error }}
-    </form>
+        <form class="signup-form" action="" method="post">
+            {% csrf_token %}
+            <h3 class="signup-h3">[[isEnglish ? 'Sign Up' : 'Regisztráció']]</h3>
+            <div class="signup-inputs-group">
+                <label for="username">[[isEnglish ? 'Username' : 'Felhasználónév']]</label>
+                <br>
+                <input class="form-input w-100" type="text" name="username" id="usernameInput">
+            </div>
+            <div class="signup-inputs-group">
+                <label for="password1">[[isEnglish ? 'Password' : 'Jelszó']]</label>
+                <br>
+                <input class="form-input w-100" type="password" name="password1" id="passwordInput1">
+            </div>
+            <div class="signup-inputs-group">
+                <label for="password2">[[isEnglish ? 'Password again' : 'Jelszó ismét']]</label>
+                <br>
+                <input class="form-input w-100" type="password" name="password2" id="passwordInput2">
+            </div>
+            <div class="signup-inputs-group">
+                <button type="submit" class="w-100">[[isEnglish ? 'Sign Up' : 'Regisztráció']]</button>
+            </div>
+            {{ error }}
+        </form>
+    </div>
 </div>
 
 {% endblock %}
