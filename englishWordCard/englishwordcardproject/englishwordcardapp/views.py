@@ -13,12 +13,6 @@ def home(request):
 
 def app_content(request):
     return render(request, 'app/content.html')
-    # try:
-    #     User.objects.get(username=request.user)
-    #     user_id = request.user.id
-    #     return render(request, 'app/content.html')
-    # except:
-    #     return render(request, 'app/content.html')
 
 
 def login_user(request):
@@ -77,13 +71,32 @@ def logout_user(request):
     return redirect('home')
 
 
-def get_common_list(request):
-    #print(request.META['CSRF_COOKIE'])
-    #print(request.headers)
-    # print(User.objects.get(username=request.user))
-    temp_list = List_of_word.objects.get(list_name='basic_list')
-    temp_words = list(Word.objects.filter(list_of_word_id=temp_list.id).values('word_away', 'word_home', 'sentence_away', 'sentence_home', 'word_description', 'learnt', 'synonyms'))
-    return JsonResponse({'words_result': temp_words})
+def get_words(request):
+    try:
+        User.objects.get(username=request.user)
+        user_id = request.user.id
+        temp_lists = list(List_of_word.objects.filter(user_id=user_id))
+        all_words = []
+        for temp_list in temp_lists:
+            temp_words = list(Word.objects.filter(list_of_word_id=temp_list.id).values('word_away', 'word_home', 'sentence_away', 'sentence_home', 'word_description', 'learnt', 'synonyms', 'list_of_word_id'))
+            for word in temp_words:
+                all_words.append(word)
+        return JsonResponse({'words_result': all_words})
+    except:
+        temp_list = List_of_word.objects.get(list_name='basic_list')
+        temp_words = list(Word.objects.filter(list_of_word_id=temp_list.id).values('word_away', 'word_home', 'sentence_away', 'sentence_home', 'word_description', 'learnt', 'synonyms', 'list_of_word_id'))
+        return JsonResponse({'words_result': temp_words})
+
+
+def get_lists(request):
+    try:
+        User.objects.get(username=request.user)
+        temp_user_id = request.user.id
+        temp_list = list(List_of_word.objects.filter(user_id=temp_user_id).values('list_name', 'list_description'))
+        return JsonResponse({'words_result': temp_list})
+    except:
+        temp_list = list(List_of_word.objects.filter(list_name='basic_list').values('list_name', 'list_description'))
+        return JsonResponse({'words_result': temp_list})
 
 
 def get_home_content(request):
@@ -91,6 +104,7 @@ def get_home_content(request):
     return JsonResponse({'home_content': temp_content})
 
 
+# This function was used to upload the basic words to database
 # def vegrehajt(request):
 #     this_list = List_of_word.objects.get(list_name='basic_list')
 #     Word.objects.all().delete()
@@ -100,6 +114,5 @@ def get_home_content(request):
 #             new_word = Word(word_away=splitted_line[0].strip(), word_home=splitted_line[1].strip(), list_of_word_id=this_list)
 #             new_word.save()
 #             print(new_word, new_word.word_away, new_word.word_home)
-
 #     return redirect('home')
 

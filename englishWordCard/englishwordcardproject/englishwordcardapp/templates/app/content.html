@@ -3,15 +3,7 @@
 {% block content %}
 
 <div class="content-wrapper" id="this-is-content-page">
-    {% if user.is_authenticated %}
-    
-        <!-- <input id="hiddenUsername" type="hidden" value="{{ user.username }}"> -->
-
-        <div>hello user</div>
-    {% else %}
-        <!-- <input id="hiddenUsername" type="hidden" value=""> -->
-        <div>hello visitor</div>
-    {% endif %}
+    <component :is="contentMode" :lists="userLists" :words="userWords"></component>
 </div>
 
 {% endblock %}

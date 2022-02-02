@@ -5,11 +5,15 @@ const app = new Vue({
       isEnglish: true,
       darkMode: false,
       isLoading: true,
-      commonList: [],
+      userLists: [],
+      userWords: [],
       homeContent: [],
+      contentMode: 'list-component',
     },
     component: {
       loader: 'loading-screen',
+      list: 'list-component',
+      card: 'card-component'
     },
     computed: {
 
@@ -22,9 +26,15 @@ const app = new Vue({
       setLanguage() {
         this.isEnglish = !this.isEnglish;
         window.localStorage.setItem("isEnglish", `${this.isEnglish}`);
-      }
+      },
+      getIsEnglish() {
+        return this.isEnglish;
+      },
     },
-    watch: {
+    provide: function() {
+      return {
+          getIsEnglish: this.getIsEnglish
+      };
     },
     mounted() {
       this.isLoading = true;
@@ -53,9 +63,18 @@ const app = new Vue({
       
       // get user lists and words if it is not available yet
       if (!!document.getElementById("this-is-content-page")) {
-        axios.get('/getCommonList')
+        // get words
+        axios.get('/getLists')
           .then(function (response) {
-            app.commonList = response.data; // todo máshogy elnevezni. bármilyen lista jöhet
+            app.userLists = response.data;
+          })
+          .catch(function (error) {
+            console.log(error);
+          })
+
+        axios.get('/getWords')
+          .then(function (response) {
+            app.userWords = response.data;
           })
           .catch(function (error) {
             console.log(error);
@@ -64,6 +83,7 @@ const app = new Vue({
             app.isLoading = false;
           });
       }
+
       if (!document.getElementById("this-is-content-page") && !document.getElementById("this-is-home-page")) {
         this.isLoading = false;
       }

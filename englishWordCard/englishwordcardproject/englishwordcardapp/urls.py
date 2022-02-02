@@ -11,6 +11,7 @@ urlpatterns = [
     path('app/', views.app_content, name='app_content'),
     # REST
     # path('vegrehajt/', views.vegrehajt, name='vegrehajt'),
-    path('getCommonList/', views.get_common_list, name='get_common_list'),
+    path('getWords/', views.get_words, name='get_words'),
+    path('getLists/', views.get_lists, name='get_lists'),
     path('getHomeContent/', views.get_home_content, name='get_home_content'),
 ]
