@@ -17,5 +17,13 @@ Vue.component('card-component', {
             this.searchInput = text;
         }
     },
-    props: ['lists', 'words']
+    computed:{
+        isEnglish: {
+          get: function() {
+              return this.getIsEnglish();
+          }
+        }
+      },
+    props: ['lists', 'words'],
+    inject: ["getIsEnglish"]
 });

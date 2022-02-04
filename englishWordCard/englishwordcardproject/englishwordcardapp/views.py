@@ -92,11 +92,11 @@ def get_lists(request):
     try:
         User.objects.get(username=request.user)
         temp_user_id = request.user.id
-        temp_list = list(List_of_word.objects.filter(user_id=temp_user_id).values('list_name', 'list_description'))
-        return JsonResponse({'words_result': temp_list})
+        temp_list = list(List_of_word.objects.filter(user_id=temp_user_id).values('list_name', 'list_description', 'id', 'creation_time'))
+        return JsonResponse({'lists_result': temp_list})
     except:
-        temp_list = list(List_of_word.objects.filter(list_name='basic_list').values('list_name', 'list_description'))
-        return JsonResponse({'words_result': temp_list})
+        temp_list = list(List_of_word.objects.filter(list_name='basic_list').values('list_name', 'list_description', 'id', 'creation_time'))
+        return JsonResponse({'lists_result': temp_list})
 
 
 def get_home_content(request):

@@ -15,9 +15,6 @@ const app = new Vue({
       list: 'list-component',
       card: 'card-component'
     },
-    computed: {
-
-    },
     methods: {
       setDarkMode() {
         this.darkMode = !this.darkMode;
@@ -61,7 +58,7 @@ const app = new Vue({
         })
       }
       
-      // get user lists and words if it is not available yet
+      // get user lists and words if user is on the content page
       if (!!document.getElementById("this-is-content-page")) {
         // get words
         axios.get('/getLists')

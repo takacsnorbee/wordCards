@@ -1,9 +1,13 @@
 Vue.component('search-component', {
     template: `
         <div class="search-wrapper">
-            <h1>{{this.isEnglish ? 'Search in lists and words' : 'Keresés listák és szavak között'}}</h1> <br>
-            <input type="text" v-model="searchInput">
-            <button @click.prevent="sendSearch">{{this.isEnglish ? 'Search' : 'Keresés'}}</button>
+            <div>
+                <h1 class="search-h1">{{this.isEnglish ? 'Search in lists and words' : 'Keresés listák és szavak között'}}</h1>
+            </div>
+            <div>
+                <input class="search-input" type="text" v-model="searchInput">
+                <button class="search-btn" @click.prevent="sendSearch">{{this.isEnglish ? 'Search' : 'Keresés'}}</button>
+            </div>
         </div>
     `,
     data() {
