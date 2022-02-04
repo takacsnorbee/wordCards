@@ -1,0 +1,13 @@
+{% load static %}
+
+<footer>
+    <div class="footer-wrapper">
+        <h1 class="footer-h1">[[isEnglish ? 'Word learning project 2022' : 'Szókincs fejlesztő projekt 2022']]</h1>
+        <h3 class="footer-h3">[[isEnglish ? 'Created by P1 & P2' : 'Készítette: P1 és P2']]</h3>
+        <div>
+            <img src="{% static 'img/python.svg' %}" alt="python-icon" class="footer-icons">
+            <img src="{% static 'img/django_logo.svg' %}" alt="django-icon" class="footer-icons">
+            <img src="{% static 'img/vue.svg' %}" alt="vue-icon" class="footer-icons">
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,127 @@
+/* Loading screen animation */
+
+#loader-container-wrapper {
+  position: absolute;
+  z-index: 1000;
+  background-color: white;
+}
+
+#loader-text {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #0c6af8a6;
+}
+
+#loader-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#loader-container svg rect:nth-child(1) {
+  animation: last-card 0.7s alternate infinite cubic-bezier(0.44, 0, 1, 0.32);
+}
+
+#loader-container svg path:nth-child(2) {
+  animation: last-card 0.7s alternate infinite cubic-bezier(0.44, 0, 1, 0.32);
+}
+
+@keyframes last-card {
+  0% {
+    transform-origin: 550px -150px;
+    transform: rotate(-20deg);
+  }
+
+  30% {
+    transform-origin: 550px -150px;
+    transform: rotate(-15deg);
+  }
+  45% {
+    transform-origin: 550px -150px;
+    transform: rotate(0deg);
+    transform: translateX(3px);
+  }
+  55% {
+    transform: translateX(-6px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+#loader-container svg rect:nth-child(3) {
+  fill: #0c6af8;
+  animation: shake-card-r 0.7s alternate infinite ease-in;
+}
+
+#loader-container svg rect:nth-child(5) {
+  fill: #f09223;
+  animation: shake-card-r 0.7s 0.5s alternate infinite ease-in;
+}
+
+#loader-container svg path:nth-child(4) {
+  animation: shake-card-r 0.7s alternate infinite ease-in;
+}
+
+#loader-container svg path:nth-child(6) {
+  animation: shake-card-r 0.7s 0.5s alternate infinite ease-in;
+}
+
+@keyframes shake-card-r {
+  0% {
+    transform: translateX(0px);
+  }
+  10% {
+    transform: translateX(3px);
+  }
+  25% {
+    transform: translateX(-2px);
+  }
+  35% {
+    transform: translateX(2px);
+  }
+  60% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(3px);
+  }
+}
+
+#loader-container svg rect:nth-child(7) {
+  animation: first-card 0.7s 0.7s alternate infinite
+    cubic-bezier(0.44, 0, 1, 0.32);
+}
+
+#loader-container svg path:nth-child(8) {
+  animation: first-card 0.7s 0.7s alternate infinite
+    cubic-bezier(0.44, 0, 1, 0.32);
+}
+
+@keyframes first-card {
+  0% {
+    transform-origin: 550px -150px;
+    transform: rotate(20deg);
+  }
+
+  30% {
+    transform-origin: 550px -150px;
+    transform: rotate(15deg);
+  }
+  45% {
+    transform-origin: 550px -150px;
+    transform: rotate(0deg);
+    transform: translateX(-3px);
+  }
+  55% {
+    transform: translateX(6px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
