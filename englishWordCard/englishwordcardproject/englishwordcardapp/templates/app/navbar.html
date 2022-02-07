@@ -1,0 +1,78 @@
+{% load static %}
+
+    <div class="nav-icon-wrapper">
+        {% if user.is_authenticated %}
+            <a href="{% url 'app_content' %}"><img id="nav-icon" src="{% static 'img/icon-big.svg' %}" alt="capicon"></a>
+        {% else %}
+            <a href="{% url 'home' %}"><img id="nav-icon" src="{% static 'img/icon-big.svg' %}" alt="capicon"></a>
+        {% endif %}
+    </div>
+    <div class="nav-middle-btn-wrapper">
+        {% if user.is_authenticated %}
+            <a class="nav-btn" href="{% url 'app_content' %}">[[isEnglish ? 'Lists' : 'Listák']]</a>
+            <a class="nav-btn" href="#">[[isEnglish ? 'Stats' : 'Statisztika']]</a>
+            <span class="nav-btn" v-if="rated">
+                <div>
+                    <div class="nav-rating-text mr-1" v-if="isEnglish">Reated by [[numOfRatings]] users</div>
+                    <div class="nav-rating-text mr-1" v-else>[[numOfRatings]] értékelés</div>
+                    <div>
+                        <img v-for="i in 5" :src="i <= appRating ? '/static/img/bright-star.svg' : '/static/img/star.svg'" class="nav-star mr-1">
+                    </div>
+                </div>
+            </span>
+            <span class="nav-btn" v-else>
+                <div>
+                    <div class="nav-rating-text mr-1" v-if="isEnglish">Rate the app</div>
+                    <div class="nav-rating-text mr-1" v-else>Értékeld az appot</div>
+                    <div>
+                        <img v-for="i in 5" 
+                            :src="i <= numOfStars ? '/static/img/bright-star.svg' : '/static/img/star.svg'" 
+                            :key="i+numOfStars" 
+                            :id="i"
+                            class="nav-star mr-1"
+                            @mouseover="setStars"
+                            @click="sendRating"
+                            @touchstart="setStars"
+                            >
+                    </div>
+                </div>
+            </span>
+
+        {% else %}
+            <a class="nav-btn" href="{% url 'home' %}">[[isEnglish ? 'Home' : 'Kezdőoldal']]</a>
+            <a class="nav-btn" href="{% url 'app_content' %}">[[isEnglish ? 'Lists' : 'Listák']]</a>
+            <a class="nav-btn" href="{% url 'login_user' %}">[[isEnglish ? 'Login' : 'Bejelentkezés']]</a>
+            <a class="nav-btn" href="{% url 'signup_user' %}">[[isEnglish ? 'Sign up' : 'Regisztráció']]</a>
+            <span class="nav-btn">
+                <div>
+                    <div class="nav-rating-text mr-1" v-if="isEnglish">Reated by [[numOfRatings]] users</div>
+                    <div class="nav-rating-text mr-1" v-else>[[numOfRatings]] értékelés</div>
+                    <div>
+                        <img v-for="i in 5" :src="i <= appRating ? '/static/img/bright-star.svg' : '/static/img/star.svg'" class="nav-star mr-1">
+                    </div>
+                </div>
+            </span>
+        {% endif %}
+    </div>
+    <div class="nav-right-btn-wrapper">
+        <div @click.prevent="setLanguage" class="nav-lang-btn">
+            <img v-if="!isEnglish" src="{% static 'img/uk-flag.svg' %}" alt="en-flag">
+            <img v-else src="{% static 'img/hun-flag.svg' %}" alt="hun-flag">
+        </div>
+        <div class="nav-user-btn">
+            {% if user.is_authenticated %}
+                <div>
+                    <div>[[isEnglish ? 'Logged in' : 'Belépve']]</div>
+                    <div>{{ user.username }}</div>
+                    <div><a class="nav-btn" href="{% url 'logout_user' %}">[[isEnglish ? 'Logout' : 'Kilépés']]</a></div>
+                </div>
+            {% else %}
+                <div>
+                    <div>[[isEnglish ? 'Guest' : 'Vendég']]</div>
+                </div>
+            {% endif %}
+        </div>
+        <div class="nav-dark-btn">
+            <switch-button v-model="darkMode" @toggle-dark-mode="setDarkMode"></switch-button>
+        </div>
+    </div>

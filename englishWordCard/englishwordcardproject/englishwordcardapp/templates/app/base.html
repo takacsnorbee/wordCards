@@ -1,0 +1,52 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" type="image/png" href="{% static 'img/favicon.ico' %}">
+        <link rel="stylesheet" href="{% static 'lib/roboto-font.css' %}"/>
+        <link rel="stylesheet" href="{% static 'lib/cssReset.css' %}"/>
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+        <link rel="stylesheet" href="{% static 'css/loadingComp.css' %}">
+        <link rel="stylesheet" href="{% static 'css/switchComp.css' %}">
+        <title>Word Cards App</title>
+    </head>
+    <body>
+        <div id="vue-app">
+            <loading-screen v-show="isLoading"></loading-screen>
+            <header :class="{ 'dark-mode': darkMode }">
+
+                {% if home_site %}
+                    {% include 'app/home_navbar.html' %}
+                {% else %}
+                    {% include 'app/navbar.html' %}
+                {% endif %}
+
+            </header>
+
+                {% block content %}
+                {% endblock %}
+
+            {% include "app/footer.html" %}
+        </div>
+        <noscript>
+            Word Cards app does not work properly because your browser does not support JavaScript!
+        </noscript>
+        
+        <script src="{% static 'lib/axios.min.js' %}"></script>
+        <script src="{% static 'lib/vue.js' %}"></script>
+        <script src="{% static 'js/components/loadingComp.js' %}"></script>
+        <script src="{% static 'js/components/searchComp.js' %}"></script>
+        <script src="{% static 'js/components/switchComp.js' %}"></script>
+        <script src="{% static 'js/components/listComp.js' %}"></script>
+        <script src="{% static 'js/components/cardComp.js' %}"></script>
+        <script src="{% static 'js/components/listCardComp.js' %}"></script>
+        <!-- <script src="{% static 'lib/vue.min.js' %}"></script> -->
+        <script src="{% static 'js/main.js' %}">
+        </script>
+    </body>
+</html>

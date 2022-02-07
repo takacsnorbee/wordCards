@@ -1,0 +1,31 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="content-wrapper login-content-wrapper">
+    <div class="login-wrapper">
+        <div>
+            <img id="login-icon" src="{% static 'img/icon-big.svg' %}" alt="form-icon">
+        </div>
+        <form class="login-form" action="" method="post">
+            {% csrf_token %}
+            <h3 class="log-h3">[[isEnglish ? 'Login' : 'Bejelentkezés']]</h3>
+            <div class="login-inputs-group">
+                <label for="username">[[isEnglish ? 'Username' : 'Felhasználónév']]</label>
+                <br>
+                <input class="form-input w-100" type="text" name="username" id="usernameInput">
+            </div>
+            <div class="login-inputs-group">
+                <label for="password">[[isEnglish ? 'Password' : 'Jelszó']]</label>
+                <br>
+                <input class="form-input w-100" type="password" name="password" id="passwordInput">
+            </div>
+            <div class="login-inputs-group">
+                <button type="submit" class="w-100">[[isEnglish ? 'Login' : 'Bejelentkezés']]</button>
+            </div>
+            {{ error }}
+        </form>
+    </div>
+</div>
+
+{% endblock %}

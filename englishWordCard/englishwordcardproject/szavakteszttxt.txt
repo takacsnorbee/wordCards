@@ -1,0 +1,2948 @@
+a dentist	@	fogorvos
+a journalist	@	újságíró
+a nurse	@	nővér, ápoló
+a traffic warden	@	forgalomirányító
+abandon	@	hanyagság, elhagyatott
+abate	@	csökkent, gyengít, lefarag
+abattoir	@	vágóhíd
+abode	@	tartozkodási hely
+about	@	körül, kb
+above	@	fölött
+abruptly	@	hirtelen, váratlanul
+absence	@	hiány,hiányzás
+absent	@	távol van, hiányzó
+abuse	@	visszaélés, jogtalanság
+accept	@	elfogad
+accident	@	baleset
+accomodation	@	szállás, elhelyezés
+accompany	@	kísér, velejár
+accomplish	@	bevégez, teljesít
+accord	@	egyetértés, összhang, egyezség
+account executive	@	ügyintéző, kapcs. Tartó
+account holder	@	számla tulajdonos
+accountable	@	felelősségre vonható
+accountant	@	könyvelő
+accoutrement	@	alkalmi öltözet
+accumulate	@	felhalmozódik
+accurate	@	pontos, helyes, gondos
+accusation	@	vádelmelés, feljelentés
+accused	@	vádlott
+ache	@	fájdalom
+achieve your goal	@	elérni a célod
+achievement	@	eredmény, teljesítmény
+acid	@	sav
+acknowledge	@	nyugtáz, tudomásul vesz
+acquaintance	@	ismerős
+acquire	@	szerez, képességet elsajátít
+across	@	keresztül
+act	@	tett, cselekedett
+acting	@	ható, működő
+actor	@	színész
+actress	@	színésznő
+actual value	@	tényleges érték
+addition	@	kiegészítés, hozzáadás
+additive	@	adalékanyag
+adequate	@	elégséges
+adjective	@	melléknév
+adjust	@	elintéz, igazít
+adjusted	@	módosítva
+admirable	@	csodálatra méltó, bámulatos, kíváló
+admission	@	felvétel, belépés
+adult	@	felnőtt
+advance	@	haladás, előlép, javulás
+advantage	@	előny
+advertisment	@	hírdetés
+advice	@	tanács
+advise	@	tanácsol
+advocat	@	pártolni, javasolni
+affection	@	hatás, benyomás, lelkiállapot
+afford	@	győz vmit, ad, nyújt, megteheti
+afloat	@	vízen úszva
+afraid	@	félni, tartani vmitől, félős
+agape	@	bámuló, csodálkozó
+agenda	@	napirend
+aggravate	@	súlyosbít
+aggregate	@	összesített
+aglow	@	égő, izzó, tündöklő
+agreement	@	megállapodás
+agricultural	@	mezőgazdasági
+aground	@	megfeneklett
+aid	@	segítség, segély
+aiming	@	célzó, irányzó, célzás
+aisle	@	székek között a folyosó
+alacrity	@	fürgeség, élénkség, jókedv
+ale	@	világos sör
+alley	@	sikátor, fasor, köz
+allocate	@	kihelyez
+allow	@	ad, elismer, enged, nyújt
+allowance	@	juttatás, kedvezmény
+almighty	@	mindeható
+almost	@	majdnem
+along by the river	@	a folyó mentén
+aloud	@	hangosan
+already	@	már +
+alteration	@	változtatás
+always	@	mindig
+amazement	@	meghökkenés, elképedés
+ambassador	@	nagykövet
+amber	@	borostyánkő
+amber	@	borostyánkő
+ambitious	@	ambíciózus
+amend	@	módosít
+among, between	@	között
+amount	@	összeg, mennyiség
+ample	@	bőséges, terjedelmes
+amuse	@	szórakoztat
+an architect	@	építész
+an artist	@	művész
+ancestry	@	származás, eredet, ősök
+anchored	@	lehorgonyzott
+ancient	@	ősi
+and the like	@	és hasonló dolgok
+angle	@	szög 
+anglo-saxon	@	angol szász
+angrily	@	dühösen, mérgesen
+angry	@	mérges
+anguish	@	gyötrelem, gyötrődés
+ankle	@	boka
+annihilation	@	megsemmisítés
+announce	@	kijelent, közöl
+annoyance	@	bosszankodás, harag
+annual	@	évi
+another	@	másik
+antagonize	@	ellenszegül, akadályoz
+antic	@	furcsa, bolond, ugrándozás
+anticipate	@	előre lát, megérez
+anxiety	@	aggódás, nyugtalanság
+anxious	@	ideges, türelmetlen
+aperture	@	nyílás, rés
+apologize	@	bocsánatot kér
+apology	@	bocsánatkérés
+apparatus	@	készülék, berendezés
+appeal	@	vonzerő, fellebbezés
+appeared	@	megjelent
+appearence	@	megjelenés
+applaud	@	tapsol
+apply	@	jelentkezés, alkalmaz módszert
+appoint	@	kinevez, kijelöl
+appointment	@	megbeszélés, találka
+appraisal	@	értékbecslés
+appreciantion	@	megértés, elismerés, értékelés
+appreciate	@	értékel, becsül
+approache	@	megközelít, szemlél
+appropriate	@	helyén való, alkalmas
+approve	@	helyesel
+approving	@	helyeslő, jóváhagyó
+approximate(ly)	@	megközelítő(leg)
+aquisition	@	vagyongyűjtés
+arch	@	boltív, pajzán, fő- ős-
+argue	@	megvitat, bizonyít, érvel
+argument	@	vita, érv
+arise	@	keletkezik
+arms	@	kar, ág, fegyver
+arrange	@	elrendez, megigazít
+arrangement	@	beosztás, elrendezés, dolog, ügy
+arranger	@	szerző, rendező (kirándulásé)
+arrive	@	megérkezés
+art	@	rajz, művészet
+article	@	újságcikk
+article of incorporation	@	társasági szerződé
+artificial	@	mesterséges, szintetikus
+artistic	@	művészi
+as for me	@	sztem
+as the crow flies	@	légvonalban
+ash	@	hamu
+ashore	@	parton, partra
+aside	@	félre tol
+askew	@	lejtős, ferde
+asleep	@	alva, álomban
+aspirations	@	törekvés, belégzés
+assertive	@	rámenős, nyers, önző, magabiztos
+assess 	@	megállapít(adót), felmér, felbecsül, kiértékel
+assets	@	eszközök (számvitelben)
+assign	@	kijelölni, jogutód, átruház
+assignment	@	kinevezett, feladat
+associate	@	társít vmivel
+assume	@	felvesz, magára vállal, színlel
+assumption	@	feltevés
+assurance	@	jog, biztosíték, szavatosság
+assure	@	biztosít
+astonishingly	@	lenyűgözően
+astonishment	@	csodálkozás
+asunder	@	különválik, darabokra
+at a loss	@	zavarban van, tanácstalan
+at least	@	legalább, minimum
+at long last	@	végre valahára
+at once	@	azonnal, hirtelen
+at the height of his fame	@	hírneve csúcsán
+attach	@	odaerősít, hozzákapcsol
+attached	@	kötött, rögzített
+attain	@	megvalósít, eljut vhova
+attempt	@	kísérlet, merénylet
+attend	@	jelen van, jár vhova, meghallgat
+attentive	@	figyelmes, gondos
+attic	@	tetőtér
+attract	@	vonzó 
+attractive	@	vonzó
+attribute	@	tulajdonság
+attrition	@	dörzsölés, kopás
+au pair	@	bébiszitter
+audencie	@	hallgatóság, közönség
+aunt	@	nagynéni
+austerity programmes	@	megszorító program
+authenticated	@	hitelesített
+authority	@	hatalom, hatóság
+authorize	@	feljogosít
+autocratic	@	autokratikus
+autumn	@	ősz (évszak)
+auxiliary verb	@	segédige
+available	@	elérhető, hozzáférhető
+avalanche	@	lavina
+avarge	@	átlag
+avenger	@	megtorló, bosszúálló
+avert	@	elhárít (ütést), elfordít (tekintetet)
+avoid	@	elkerül, kitér
+award	@	odaítél, díj
+awareness	@	tudatosság
+awesome	@	félelmetes, bámulatos, döbbenetes, király
+awful	@	szörnyű
+axe	@	balta, fejsze
+back	@	hát
+backwards	@	visszafelé
+badly	@	rosszul
+bag	@	táska
+baggage	@	csomag, poggyász
+balance	@	egyenleg
+balance of trade	@	kereskedelmi mérleg, egyenleg
+balcony	@	erkély
+bald	@	kopasz
+banner	@	zászló, lobogó, szalagcím
+bar	@	rúd
+bar code	@	vonalkód
+bare	@	meztelen, csupasz, kietlen, puszta
+barely	@	szűkösen, alig
+barge	@	uszály, bárka
+barman	@	pultos
+barrel	@	hordó
+barren	@	terméketlen, meddő
+barrier	@	sorompó, korlát
+bastard	@	hamis, tv telen, elfajzott
+batch	@	csomó, halom, köteg
+bathroom	@	fürdőszoba
+baton	@	gumibot
+bay	@	öböl
+bay leaf	@	babérlevél
+be on hand	@	rendelkezésre áll
+be slated	@	kijelölve
+bean	@	bab
+bear	@	medve, szül
+bear fruit	@	meghozza a gyümölcsét
+beard	@	szakáll
+bearer\order cheque	@	bemutatásra\névre szóló csekk
+beat	@	megver
+beautiful	@	csodálatos
+bed	@	ágy
+bedroom	@	hálószoba
+beef	@	marhahús
+beg	@	könyörög, koldul
+beggar	@	koldus
+behalf	@	nevében, érdekében
+behave	@	viselkedik
+behaviour	@	viselkedés
+behind	@	mögött
+believe	@	hinni
+bell	@	harang, csenget, telefon
+bellboy	@	csomaghordó, londiner
+bellow	@	bőg, bömböl, ordít
+belong	@	tartozik vmihez
+belonging	@	tartozó
+belt	@	öv
+bend	@	hajlás, kanyar
+beneath	@	alá, lent
+beneficiory	@	kedvezményezett
+benefits	@	juttatások
+benevolent	@	jóindulatú, jótékony
+between	@	között
+beverage	@	ital
+bewilder	@	megzavar, megrémít
+beyong	@	túl, felett
+bias	@	elfogultság
+biased	@	elfogult 
+bid	@	árajánlat
+bill	@	számla
+billion	@	milliárd
+bind	@	összeköt
+bind, bound, bound	@	kötelez
+binoculars	@	távcső
+biscuits	@	rágnivaló
+bishop	@	püspök
+bit	@	kicsi, harapás
+biter	@	harapós
+bitter	@	keserű, barna sör
+bitterness	@	elkeseredettség
+blame	@	hibáztat
+blanket	@	takaró
+blare	@	harsan, zendl
+blazing	@	lángoló, égő, tűző
+bleed	@	vérzik, csonka
+bless you! 	@	egészségedre
+blink	@	pislog, hunyorog
+bliss	@	mennyei boldogság, üdvösség
+blizzard	@	hóvihar
+blocked of flat	@	téglalakás
+blood	@	vér 
+blow	@	csapás, támadás, széllökés, fúj
+blue	@	szomorú
+blue collar workers	@	fizikai munkás
+blush	@	szégyen, pír
+bo x of matches	@	gyufásdoboz, 1 doboz gyufa
+boast	@	dicsekvés, büszkeség
+bode	@	előjel, hírnök
+boiled	@	főtt
+bold	@	merész, vakmerő
+bond	@	kötelék, kötődés, kötvény
+bonds	@	kötvények
+bone	@	csont
+book keeping	@	könyvelés
+boost	@	ösztönöz
+boot	@	bakancs
+border	@	határ
+bore	@	furat, unalmas, átmérő
+boredom	@	unalom
+boring	@	unalmas, fárasztó
+borrow	@	kölcsön kér
+bosom	@	mell,kebel
+bossy	@	parancsolgató
+both	@	mindkettő
+bother	@	zavar
+bother "bodör"	@	kellemetlenség, háborgat, alkalmatlan
+bottle	@	üveg, flakon
+bottled, draught beer	@	üveges, csapolt sör
+bottom	@	alacsony
+boundary	@	határ
+bowl	@	tál
+brace	@	merev, összeköt, támaszt
+bracket	@	zárójel
+branch	@	ágazat, bankfiók
+brand	@	megbélyegez, parázs, gyártmány
+brass	@	réz
+brave	@	bátor
+brawn	@	izom, testi erő
+bread	@	kenyér
+bread winner	@	kenyérkereső
+break-even point	@	fedezeti pont
+bream	@	dévérkeszeg
+breath	@	lehelet
+breed	@	szül, szaporít, felnevel
+breeding	@	állattenyésztés
+brew	@	főz (sört, teát)
+bride	@	menyasszony
+briefs	@	alsó nadrád
+bristle	@	tüske, felborzol
+broad shoulders	@	széles váll
+broader	@	szélesít
+brooding	@	kotló (madár)
+brow	@	szemöldök
+bruise	@	ütődés, súrlódás, horzsolás, horpadás
+brush	@	kefe, fésű
+brutish	@	állati, embertelen, kegyetlen,
+buccaneer, corsair	@	kalóz
+bucket	@	vödör
+budget, economy,low-cost-airline	@	fapados légitársaság
+budgetary policy	@	költségvetési pol.
+buffet	@	büfé, pofon, lábtartó
+bulb	@	hagyma, gumó, üveggömb, bura
+bulge	@	kidudorodik
+bulk	@	tömeg, nagyság
+bulk goods	@	tömegáru
+bullet	@	lőszer
+bumpy	@	hepehupás
+bunch	@	csokor
+bunch of key	@	kulcscsomó
+buoy	@	bója
+burden	@	teher
+burry	@	eltemet
+burst	@	repedés, kitörés
+business card	@	névjegykártya
+businesslike	@	üzleties, hivatalos
+butler	@	komornyik
+butter	@	vaj
+by far the best at	@	messze a legjobb…
+by heart	@	kívűlről
+by the dozen	@	tucatjával
+by the way	@	mellesleg
+cabbage	@	káposzta
+cadence	@	ritmus, ütem
+calamity	@	szerencsétlen helyzet, balsors
+callable	@	beváltható
+calm	@	csend, nyugalom
+camel	@	teve
+camper	@	táborozó
+can I take your order, please?	@	felvehetem a rendelést?
+canal	@	csatorna
+candidat	@	jelölt
+candle	@	gyertya
+candour	@	őszinteség, szókimondás
+cane	@	nád, vessző
+canopy	@	baldachin, védőtető
+cans	@	doboz (alu)
+can't stand	@	ki nem állhatom
+cap	@	 sapka
+capable	@	alkalmas, tehetséges, hozzáértő
+cape	@	hegyfok
+capital	@	tőke, nagy kezdőbetű, főváros
+capital account	@	tőkemérleg
+capital gain	@	tőkenyereség
+capital intensive	@	tőkeigényes
+captive	@	foglyul ejt
+captivity	@	fogság
+carcinogen	@	rákkeltő anyag
+care	@	gond, aggodalom
+carefree	@	gondtalan
+carefull	@	óvatos
+caregiver	@	gondviselő
+cargo	@	szállítmány
+cargo space	@	raktér
+carp	@	ponty
+carpenter	@	asztalos, ács
+carpet	@	padlószőnyeg
+carrot	@	répa
+carry	@	cipelni
+carry on	@	folytat
+case	@	ügy, eset, fiók, tok
+cash against document	@	inkasszó
+cash desk	@	pénztár
+cashpoint	@	atm
+catch	@	csapda, elfogni
+catch 22	@	22-es csapdája
+cattle	@	marha 
+catwalk	@	futóhíd, keskeny palló
+caurse of business	@	üzletmenet
+cause	@	okozni
+cautious	@	óvatos, elővigyázatos
+caving	@	barlangászat
+cavity	@	üreg, lyuk, testüreg, odú
+cease	@	szünet, megállít, (tűzszünet)
+ceiling	@	mennyezet
+celebrated	@	ünnepelt
+centigrade	@	celsius fok
+CEO (chief executive officer)	@	vezérigazgató
+cereal	@	gabonapehely
+certain	@	bizonyos
+certificate	@	bizonyítvány
+certification	@	igazolás
+chain store	@	üzletlánc
+chair	@	szék
+chairman	@	elnök
+chalet	@	lakókocsi
+chamber	@	terem, szoba, helyiség
+chance	@	esély
+change of regime	@	rendszerváltás
+chap	@	kicserepesedik
+chapel	@	kápolna
+charge	@	díj, felszámít, teher, rakomány
+charge interest	@	kamatot felszámol
+chart	@	ábra, grafikon
+chart (bar,pie)	@	oszlop-, kördiagramm
+chartered vessel	@	áruszállításra bérelt hajó
+chase	@	vadászat, üldözés
+chatty	@	beszédes
+cheap	@	olcsó
+cheerful	@	jókedvű
+cheese	@	sajt
+cheesy	@	sajtos, giccses
+cheque	@	csekk
+chewing	@	rágás
+childhood	@	gyermekkor
+children	@	gyermekek
+chimney	@	kémény
+chin	@	ál
+choise	@	választani, választék
+choked	@	elmázolt - 
+chortle	@	kacarászik
+circumstance	@	körülmény
+citadel	@	fellegvár
+citizen	@	polgár
+City Park	@	Városliget
+civic	@	polgári
+claim	@	igényel
+clash	@	nézeteltérés
+classmat	@	osztálytárs
+clause	@	záradék
+claw	@	karom
+clearly	@	világosan
+clerk	@	alkalmazott, ügyintéző
+cliff	@	szikla
+climb	@	mászás
+closely-knit	@	összetartó
+cloud	@	felhő, beborul
+cluch	@	kotyog
+clue	@	gomolyag, vezérfonal
+clumsiness	@	ügyetlenség, esetlenség
+clumsy	@	ügyetlen, esetlen
+clusters	@	csomó, csoport, fürt
+clutch	@	kuplung, megragad, karom, 
+coach	@	kocsi, hintó
+coach potatoe	@	otthonülős
+coal	@	szén
+coalesce	@	egyesül, vegyül, összeforr
+coast	@	part
+coat	@	kabát
+coax	@	csalogat, hízeleg
+coffin	@	koporsó
+cofident	@	magabiztos, beképzelt
+cohabit	@	együttlét
+coherence	@	következetesség
+coil	@	feltekert kötél, tekercs
+coin	@	érme
+coincidence	@	egybeesés, véletlen
+cold cuts	@	felvágott
+collar	@	gallér
+collar-bone	@	kulcscsont
+collateral	@	fedezet 
+collect	@	begyűjteni
+college	@	főiskola
+collude	@	összejátszik
+column	@	oszlop,pillér, botkormány
+combine	@	összeköt
+come off	@	leesik
+come out of hiding	@	rejtekhelyről előjön
+commandership	@	parancsnokság
+commend	@	dicsér, adományoz, ajánl
+commerce	@	kereskedelem
+commercial invoice	@	kereskedelmi számla
+commission	@	jutalék, megbíz vkit
+commissioner	@	küldött, megbízott
+commit 	@	elkövet, elkötelezi magát
+commitment	@	elkötelezettség
+committee	@	bizottság, választmány
+commodity	@	árucikk
+common, mutual	@	közös
+commotion	@	felbolydulás, zűrzavar
+community	@	közösség
+company limited by shares	@	rt
+comparative	@	összehasonlító
+compare	@	összehasonlít 
+comparison	@	összehasonlítás
+compartment	@	rekesz, fülke
+compass	@	iránytű
+compassion	@	szánalom
+compel	@	kényszerít
+compelling	@	kényszerítő, lenyűgöző
+compete	@	versenyez
+competition	@	verseny 
+competitor	@	versenyző
+compilation	@	összeállítás
+complacent	@	öntelt
+complain	@	panasz, reklamáció
+complementary	@	kiegészítő 
+complements	@	egymást kiegészítő áruk
+compliment	@	bók, tiszteletadás, üdvözlet
+compose	@	alkot, képez, formál
+composer	@	zeneszerző
+comprehend	@	felfog, megért
+comprehensive	@	átfogó
+compulsory	@	kötelező
+computer literacy	@	számítógépes ismeretek
+comrade	@	bajtárs
+conceal	@	elrejt, eldug, elhallgat
+concede	@	elfogad, elismer
+concern	@	kapcsolat, törődés, vállalat
+concise	@	rövid, tömör
+conclude	@	következtetni
+concur	@	egyetért, egybeesik (időpont)
+condition	@	feltétel
+conduct 	@	lebonyolít, vezényel
+conductor	@	kalauz, karmester
+conduit	@	csatorna, vezeték, kábel
+confess	@	bevall, elismer
+confession	@	beismerés, vallomás
+confide in	@	bízik vmiben
+confidence	@	önbizalom, magabiztosság
+confidence	@	bizalmas
+confinement	@	börtön büntetés, elzárás
+confirmation	@	megerősítés, visszaigazolás
+confortable	@	kényelmes
+confound	@	bonyolít, összezavar
+confused	@	zavart
+connection	@	összefüggés, kapcsolat
+conscientiously	@	lelkiismeretesen
+conscious	@	eszméleténél van, tudatos
+consecutive	@	egymást követő, következményes
+consequence	@	következmény
+conservation	@	megőrzés
+consider	@	néz, tekint, szemlél, figyelmes
+considerable	@	tekintélyes méretű
+considerable problem	@	tekintélyes probléma
+consideration	@	megfontolás, figyelmesség
+consist	@	tartalmaz, áll vmiből
+consonant	@	egybehangzó, mshangzó
+constantly	@	állandóan
+constitution	@	alapszabály, alkotmány
+constructiveness	@	alkotó jellegű megnyilvánulás
+consulting	@	tanácskozó
+consumer goods	@	fogyasztási cikk
+consumer, costumer	@	fogyasztó
+consumerism	@	fogyasztói szemléletmód
+consuption	@	fogyasztás, tüdővész
+contain	@	feltartóztat, visszatart
+contaminated	@	szennyezett
+contemporary	@	korabeli, kortárs
+content	@	térfogat, megelégedett
+contentious	@	vitatott
+contraband	@	csempészet
+contraction	@	rövidítés, összefoglalás
+contraction, cut, reduce, decrase	@	csökkentés
+contradictory	@	ellentmondásos
+contrary	@	ellentétes, makacs, akaratos
+contribute	@	pénzt időt energiát áldoz
+contribution	@	hozzájárulás
+contrite	@	vezeklő, bűnbánó
+control your fear	@	uralkodni a félelmeden
+controlling	@	ellenőrzés
+convenience	@	kényelem, megfelelés
+conventional	@	hagyományos
+conversation	@	beszélgetés
+conversion price	@	átváltási ár
+conviction	@	meggyőzés
+convince	@	meggyőz
+convinced	@	meggyőződött
+cook for yourself	@	főzni magadnak
+cooker	@	gáztűzhely
+corporate	@	testület
+corporate income tax	@	társasági adó
+corporation	@	vállalategyüttes
+correspond	@	megfelel vminek
+cottage	@	nyaraló
+cottage cheese	@	túró
+cottage cheese topped with bacon	@	túrós csusza
+cough	@	köhög
+counselling	@	tanácsadás
+counter	@	pult
+counting	@	számol, számlál
+countryside	@	vidék, környék
+county	@	megye
+couple	@	házaspár, pár
+court	@	bíróság, udvarlás, sport pálya
+cousin	@	unokatesó
+covet	@	sóvárog, kíván
+coward	@	gyáva
+cpi	@	fogyasztói ár index
+crab	@	rák (tengeri)
+craftsman	@	iparos, kézműves
+crane	@	daru
+crap	@	ökörség
+crate	@	rekesz
+crawl	@	mászni, csúszni
+credible way	@	hitelt érdemlő
+credit card	@	hitelkártya
+creep	@	mászás, csúszás
+crib sheets	@	puskaírás
+cringe	@	rezzen, lapul
+crippled	@	nyomorék, rokkant
+crisps	@	burgonyaszirom
+criticism	@	kritika, bírálat
+crouch	@	guggol, lekuporodik
+crow	@	varjú
+crowd	@	tömeg
+crown	@	korona
+crucial	@	döntő, létfontosságú
+cruel	@	kegyetlen, gonosz
+cruise	@	sétahajó
+crutch	@	mankó
+crying	@	sír, kiált
+cucumber	@	uborka
+culmination	@	tetőzés, csúcs
+cultivated	@	művelt
+cunning	@	ravasz
+cupboards	@	konyhaszekrény
+curb	@	fék, akadály
+curious	@	kíváncsi
+curling	@	fodrozódás, göndörítés
+curly	@	göndör
+currency	@	valuta, pénznem
+current account	@	folyó fiz. Mérleg
+current\deposit account	@	folyó\betét szla
+curriculum	@	tananyag
+curse	@	átok, átkoz, szid
+cursed	@	átkozott
+curtain	@	függöny
+curvature	@	görbület
+curve	@	kanyarodni, hajlat
+curved	@	görbe, ívelt
+cushion	@	díszpárna
+custody	@	felügyelet, megőrzés
+cutlery	@	evőeszköz
+cuttle fish	@	tintahal
+dagger	@	leszúr, tőr
+dairy	@	tejtermék, tejüzem
+dam	@	gát
+damage	@	károsodás
+damn it	@	fenébe
+damp	@	nyirkos, nedves, elhalkít
+Danube Bend	@	Dunakanyar
+dare	@	merész, dac
+daughter	@	vkinek a lánya
+daunt	@	megfélemlít
+dawn	@	hajnal
+daylight	@	nappal
+daze	@	kábult, szédülés, zavar
+dead	@	halott
+deadline	@	határidő
+deafening	@	süketítő
+deal	@	üzlet, vásárol
+deal with	@	vkivel foglalkozni
+death	@	halál
+debate	@	vita
+debilitate	@	elgyengít
+debit	@	terhel
+debris	@	törmelék, roncs
+decay	@	hanyatlás, korhaszt, rothad
+deceive	@	becsap, megtéveszt
+deceive	@	becsap, téved
+decent life	@	tisztességes élet
+deception	@	becsapás, megtévesztés
+decided	@	határozott
+declare	@	kijelent, bejelent
+decline	@	csökken, hanyatlás
+decorum	@	illem, illendőség
+deduction	@	levonás
+deem	@	megítél
+defendant	@	alperes
+deferred payments	@	utólagos fizetés
+defiant	@	kihívó, ellenszegül
+deficit	@	hiány
+define	@	meghatároz
+deflate	@	leereszt, kiürít
+degree	@	fok, mérték
+delay	@	haladék, késedelem, elhalaszt
+deliberate	@	szándékos 
+deliberately	@	szándékosan
+delicacy 	@	finomság, gyöngédség
+delicous	@	finom
+delight	@	gyönyör, érvelezet, boldogság
+delivery	@	átadás, kézbesítés
+delivery and distribution	@	fuvarozás és szállítmányozás
+demand	@	kér, követel, kereslet
+demise	@	haláleset, örökül hagy, ingatlanörökség
+democratic	@	demokratikus
+demostrate	@	bemutat, nyivános helyen tiltakozik
+denomination	@	címlet
+dense	@	együgyü, buta
+density	@	sűrűség
+deny	@	tagad
+depart	@	elmegy, távozik
+department supervisor	@	csoportvezető
+departure	@	elindulás
+dependent	@	elrendelt, függő, eltartott
+deplete	@	kimerít, felél, elfogyaszt
+depletion	@	kimerítés (bánya pl)
+deportation	@	kitoloncolás, kiutasítás
+deposit	@	üledék, foglaló, réteg, betét
+depository	@	betétes
+deprive	@	megfosztani vmitől
+depth	@	mélység
+derive	@	származtat
+derive from	@	származik
+descent	@	lejtő
+describe	@	leírás, jellemzés
+description	@	leírás 
+deserve	@	érdemel
+designate	@	nevez
+desire	@	vágy, vágyakozás
+desperate	@	kétségbeesett, reménytelen
+despite	@	rosszindulat, neheztelés, dacára, ellenére
+destruction	@	rombolás, pusztítás
+details	@	részletek
+deteched hause	@	családi ház
+detent	@	rögzítőpecek, kioldókar
+deteriorate	@	rosszabbodik
+determinant	@	meghatározó tényező
+determined	@	eltökélt
+detractor	@	becsmérlő
+detriment	@	kár, hátrány, sérelem
+devalutation	@	leértékelés
+developed	@	fejlett
+developer	@	fejlesztő
+deviate	@	eltérni (átlagtól)
+device	@	készülék
+devote	@	szentel, áldoz
+devotion	@	önfeláldozás, jámborság
+dexterous	@	ügyes, jobbkezes
+different	@	különböző
+difficult	@	nehéz
+dig, diger	@	ás, ásó
+digest	@	emészteni
+dignity	@	méltóság
+digress	@	eltér a tárgytól, csapong
+dill 	@	kapor
+diminished	@	csökkentett, kisebbített
+diminutive	@	pici, apró, csepp
+dinghy	@	gumicsónak
+dinning room	@	étkező
+direct	@	közvetlen  
+direct debit	@	közvetlen terhelés
+directing	@	irányítás
+direction	@	útmutatás
+directions for use	@	használati utasítás
+disabled	@	mozgássérült
+disappered	@	eltűnt
+disaster	@	katasztrófa
+disband	@	feloszlat
+discipline	@	tantárgy, fegyelem
+disdain	@	megvet, utál, megvetés
+disgruntled	@	rosszkedvű, elégedetlen, mogorva
+disguise	@	álöltözet
+disgusting	@	undorító
+dish	@	tányér
+disinfect	@	fertőtlenít
+dismantle	@	lebont, megszűntet
+dismay	@	döbbenet, rémület
+dismiss	@	nem fogad el, elbocsát
+dismissal	@	elbocsátás
+disoblige	@	sértően bánni vkivel
+disparity	@	egyenlőtlenség
+dispatch	@	elküld, elintéz, futár
+dispel	@	eloszlat
+dispense money	@	pénzt kiad (atm)
+displacement	@	elmozdulás, vízkiszorítás
+disposal	@	elrendezés, kezelés
+dispute	@	vita
+disregard	@	semmibe vesz, figyelmen kívűl hagy
+dissolve	@	áttütés, felold, eloszlat, feloldódik
+dissuade	@	lebeszél, eltántorít
+distillation	@	lepárlás, desztillálás
+distinction	@	különbség, megkülönböztető jegy
+distinctive	@	megkülönböztető, jellegzetes
+distinguish	@	megkülönböztet
+distribution	@	elosztás
+district	@	körzet, kerület
+diver	@	búvár
+divers	@	különféle, többféle
+diversion	@	elterelés, szórakozás, időtöltés
+divestment	@	leépítés
+divide	@	vízválasztó, elválaszt, megoszt
+dividend	@	osztalék
+division of labour	@	munkamegosztás
+divorce	@	elválni
+divorved	@	elvált
+divulve	@	elhíresztel, kifecseg
+dodge	@	kitér, félreugrik
+doll	@	játékbaba
+domestic	@	hazai
+dominate	@	meghatároz
+donkey	@	szamár
+don't have the faintest idea	@	leghalványabb fogalma sincs
+don't mind	@	mindegy
+door-to-door delivery	@	házhozszállítás
+dormant	@	szunnyadó, téli álmot alvó
+dorsal	@	háti, hátoldali
+doughnut	@	fánk
+dove	@	galambszürke
+down in the dumps	@	szomorú, depressziós
+downcast	@	lehangolt
+downfall	@	esés, zuhanás
+downtown	@	belváros
+dowry	@	hozomány
+draw up	@	felvázol
+drawback	@	akadály hátrány, bökkenő
+dreadful	@	félelmetes, rettenetes
+dream	@	álom
+drill	@	fúr, gyakorlat
+drive	@	vezetni
+driver	@	sofőr
+driving	@	vezetés
+driving licence	@	jogosítvány
+droll	@	vidám, mulatságos, tréfál
+drop	@	dobni, esni
+drought	@	aszály
+drum	@	dob (hangszer)
+dry	@	száraz
+due	@	esedékes
+duke	@	herceg
+dull	@	buta, fakó, tompa
+dumb	@	néma
+dump	@	kövér, zseton, eláraszt, lerakodóhely
+dung	@	trágya
+durable	@	tartós
+during	@	alatt (időben)
+dust car	@	szemétszállító
+dust, (rubbish)	@	szemét
+duty	@	kötelesség, adó, vám
+dwarf	@	törpe
+each	@	mindegyik
+eager	@	buzgó, türelmetlen, lelkes
+Earl	@	Gróf
+earshot	@	hallótávolság
+ease	@	nyugalom, megkönnyebbülés
+eat out	@	étteremben enni
+eavesdrop	@	kihallgat, hallgatózik
+ebb	@	apály
+echo	@	visszhang, 
+economics	@	közgazdaságtan
+edge	@	széle vminek, él, perem
+edgy	@	izgatott
+edible	@	ehető
+editor	@	szerkesztő 
+editorial room	@	szerkesztőség
+effective	@	hatásos
+efficiency	@	hatékonyság, teljesítmény
+effort	@	fáradozás
+elbow	@	könyök
+elderly	@	koros, öreges, idősebb
+elect	@	választ 
+eligible for loan	@	hitelképes
+elimination	@	eltávolítás
+elopement	@	szökés, szöktetés
+elsewhere	@	máshol
+elude	@	kitér,kisiklik, megmenekül, elkerül
+emancipate	@	egyenjogúsít
+embark	@	behajózni
+embarrasse	@	zavart, zavarba hozni
+embassy	@	nagykövetség
+ember	@	izzó fa, széndarab, parázs
+emerge	@	felbukkan
+eminently	@	rendkívüli módon, elsősorban
+emotional	@	érzékeny
+emphasis	@	hangsúly
+enable	@	engedélyez, lehetővé tesz
+encore	@	ismétlés, ráadás
+encounter	@	összetalálkozás, összeakad
+encourage	@	bátorít
+encouragement	@	bátorítás, támogatás
+endorse	@	láttamoz, hitelesít, hozzájárulás
+endurance	@	kitartás, állóképesség
+engage	@	eljegyzés
+engage	@	leköt, illeszkedik
+engagement ring	@	eljegyzési gyűrű
+engulf	@	elnyel, eláraszt, elönt
+enhance	@	fokoz, erősít, növel
+enjoy	@	élvezni
+enlist	@	besoroz (katonának)
+enmity 	@	ellenségeskedés, gyűlöködés
+enormous	@	hatalmas, óriási
+enquiry	@	árajánlatkérés
+enrich	@	gazdagít
+enterprise	@	vállalkozás
+entertainment	@	szórakozás
+enthusiastically	@	rajongva, lelkesen
+entitle	@	feljogosít
+entitled	@	jogosult
+entrepreneur	@	vállalkozó
+enviroment	@	környezet
+envy	@	irigység, irigyel
+envy	@	irigység
+epidemic	@	járvány
+equally	@	egyformán, egyaránt
+equantion	@	egyenlet
+equilibrium	@	egyensúlyi
+equipment	@	felszerelés, berendezés
+equity	@	részesedés
+era	@	korszak
+erupt	@	kitör (vulkán)
+escalator	@	mozgólépcső
+escape	@	elmenekül
+especially	@	főként
+essentially	@	lényegében
+establish	@	létrehoz, megalapít
+establishment	@	létesítés, intézmény
+estate	@	vagyon, ingatlan
+estimate	@	becslés, ktgvetés
+evade	@	elkerül, kijátszik (tv-t)
+evasion	@	kikerülés, kifogás, ürügy
+evasive	@	kitérő, elodázó, kerülgető
+evaulate	@	értékel
+even	@	egyenlő
+eventually	@	végül
+ever	@	valaha, örökké
+eviction	@	kilakoltatás
+evidence	@	kézzelfogható, bizonyíték, lelet, tanú
+evoke	@	megidéz, előhív
+evolve	@	kialakul
+exact	@	pontos
+exaggeration	@	túlzás
+examination	@	vizsga
+examine	@	megvizsgál
+examining	@	vizsgáztató, vizsgáló
+exceed	@	túllép
+except	@	kivéve
+exception	@	kivétel
+excessive	@	túlzó, szélsőséges
+exchange	@	csere, átvált (pénzt)
+excise duty	@	jövedéki adó
+excitement	@	izgalom
+exciting	@	izgalmas
+exclamation	@	felkiáltás
+exclude	@	kizár (csoportból)
+excursion, trip	@	kirándulás
+excuse	@	mentség, kifogás, elnézés
+execute	@	végrehajt, kivégez
+executive	@	ügyvezető, vezető beoszt
+exemplary	@	példaszerű
+exercise book	@	füzet
+exhaustion	@	kimerülés
+exhibition	@	bemutató, gyakorlás, kiállítás
+exile	@	számkivetés
+exiled	@	számkivetés, száműzetés
+existing	@	létező
+expansion	@	terjeszkedés, bővítés
+expect	@	gondol vkire, vár, számít
+expectation	@	várakozás
+expected return	@	elvárt hozam
+expedite	@	gyors, akadálytalan, siettet
+expendable	@	feláldozható
+expenditure, expense	@	kiadás, ráfordítás
+expense	@	ktg
+expensive	@	drága
+experience	@	tapasztalat
+experiment	@	kísérlet
+expert knowledge	@	szakértői tudás
+expertise	@	szakértelem
+expire	@	lejár
+explain	@	kifejt, indokol, magyaráz
+explanation	@	magyarázat
+exploit	@	kitermel
+exploitation	@	kihasznlás
+exposure	@	kitettség, kitétel
+expression	@	kifejezés, hangadás
+extend	@	folytatódik, kiterjed
+extensive 	@	kiterjdedt
+extensively	@	alapos
+extent	@	mérték, fok
+extraordinary	@	rendkívüli, különleges
+extrapolate	@	kivetít, kiközvetít
+exuberance	@	bőség, gazdaságos
+exude	@	áraszt
+eyebrow	@	szemöldök
+fabric	@	szövet
+face value	@	névérték
+faced up	@	szembeszáll
+facial expression	@	arckifejezés
+facility	@	létesítmény
+factors of production	@	termelési tényezők
+fade	@	elhervad, elfonnyad, elhalkul
+failure	@	kudarc, sikertelenség
+faint	@	gyenge, erőtlen
+fair, blonde	@	szőke
+fairly	@	becsületes, alaposan, világosan
+fairy tale	@	tündérmese
+faithful	@	hűséges
+falcon	@	sólyom
+fall	@	leesik, lezuhan, szintkülönbség
+fall asleep	@	álomba esik
+fall in love	@	szerelembe esik
+fall, reduce	@	csökken, csökkent
+familiar	@	családias, intim, ismerős
+farewell	@	búcsú
+farfel	@	tarhonya
+fascinating	@	lenyűgöző, elbűvölő
+fashion	@	divat, módszer, kidolgoz
+fasting	@	böjtölés
+fate	@	sors, végzet
+father in law	@	após
+fatigue	@	fáradtság, kimerülés
+fault	@	hiba, botlás, mulasztás
+favour	@	szivesség
+favourable	@	kedvező
+fear	@	rettegés, félelem
+feasible	@	megvalósítható (anyagilag)
+feast	@	ünnep
+features	@	vonások, tagoltság
+federal	@	szövetségi
+feeble	@	gyenge, beteges, ügyetlen
+feed	@	etet
+feedback	@	visszajelzés
+feel dizzy	@	szédül
+feet	@	lábfej
+fell	@	szőrme, vad, feldolgozás
+feral	@	vad,vadon, állatias
+ferocity	@	vadság
+ferry	@	komp, rév
+fertiliser	@	műtrágya
+fetch	@	csel
+fetch a compass	@	kerülőt tesz
+fever	@	láz, izgalom
+fiat	@	rendelet, felhatalmazás
+fiat	@	rendelet
+fidelity	@	hűség
+fierce	@	vad, ádáz
+fill out	@	kitölt (pohárba)
+findings	@	megállapodások
+fine	@	pénzbírság
+fireplace	@	tűzhely, kályha
+firm	@	cég
+firmly	@	határozottan
+first name	@	keresztnév
+fish in aspic	@	halkocsonya
+fish out	@	kihalász valamit
+fishmonger	@	halkereskedő
+fist	@	ököl
+fit	@	megfelel, alkalmas, jól áll
+flair	@	szimat, érzék
+flame	@	láng
+flank	@	oldalvéd, támogató
+flare	@	csillámlik, ragyog
+flat	@	panellakás, lapos
+flatter	@	hízeleg, áltat
+flexible	@	rugalmas
+flipper	@	uszony, úszóláb
+floods	@	árvíz
+flow	@	folyik
+fluent	@	gördülékeny
+fluid	@	folyékony
+fly	@	lény, repül
+foist	@	csaló, becsempész
+folded	@	redős, ráncos
+fond, gently	@	gyengéd, szerető, kedves
+footprint	@	lábnyom
+for	@	óta (idő)
+for	@	miatt
+forbid	@	betilt, megakadályoz
+forcing	@	felfeszítés, erőszak, serkent
+forehead	@	homlok
+foreign	@	külföldi
+forerunner	@	ős
+forfeit	@	bánatpénz, zálog
+forge	@	kovácsolni, kohó
+forgive	@	elfelejteni, megbocsátani
+fork	@	villa, elágazás
+formal	@	szabályszerű, elméleti képzés
+former	@	előző, korábbi
+formidable	@	félelmetes, hatalmas
+form-teacher	@	osztályfőnök
+fortune	@	szerencse, vagyon
+foundation	@	alapítvány
+fragile	@	törékeny
+frail	@	törékeny
+frame	@	(kép)keret
+frantic	@	dühöngő, tomboló
+fraud	@	család
+fraudster	@	csaló
+freckled	@	szeplős, foltos
+free flow of goods	@	termék szabad áramlása
+frequently	@	sűrűn, gyakran
+frictional unemployment	@	átmeneti munkanélküliség
+fridge	@	hűtő
+fried	@	sült
+fries	@	hasábburgonya
+fritter	@	csörögefánk
+from	@	tól től ból ből
+frown	@	szemöldök összehúzása, homlokráncolás
+frozen	@	fagyott, fagyasztott
+fugitive	@	szökevény
+fulfil	@	teljesít  
+fun pool centre	@	vizi vidámpark
+funeral	@	temetés
+fun-fair, thempark	@	vidámpark
+fur	@	szőrzet
+furious	@	dühös, haragos, tomboló
+furniture	@	szekrény
+fuss	@	felhajtás, zaj, lárma
+futile	@	felületes, haszontalan, jelentéktelen, hiábavaló
+gab	@	fecseg, locsog
+gains	@	haszon
+gambling	@	szerencsejátékos
+game	@	játék, vadhús
+gap	@	szünet, rés, repedés
+garbage	@	szemét
+garble	@	elront, meghamisít
+garlic	@	fokhagyma
+garnish	@	köret
+gasp	@	zihál, lélegzik, lihegés
+gathering, collect	@	összegyűjt
+gaunt	@	sovány, sivár
+gaze	@	nézés, bámulás
+gender	@	nem (ffi, nő)
+gene	@	gén
+general	@	megszokott, általános
+general practitioner	@	háziorvos
+generous	@	bőkezű, nagylelkű
+gently	@	gyengéden, finoman
+gesture	@	gesztus
+get dressed	@	felöltözni
+get on to thin ice	@	kockázatos dolog
+get on with	@	kijönni vkivel
+get promotion	@	előreléptetés
+give an oral presentation	@	felel szban
+give back	@	visszaadni
+give up	@	feladni
+gives me a hard time	@	megnehezíti az életem
+glad	@	kellemes, vidám, boldog
+glance	@	pillantás, tekintet
+glasses	@	szemüveg
+glider	@	vitorlázó repülő
+gloomy	@	sötét, homályos
+gloves	@	kesztyű
+glower	@	mogorván, rosszindulatúan
+go out	@	kimenni
+go straight on	@	menjen egyenesen
+goods	@	áruk
+gossip	@	beszélgetés, fecsegés
+gourmet restaurant	@	ínyenc étterem
+grace	@	báj, jóindulat, kegyelem
+graceful	@	bájos, kecses, kedves
+grade, notes	@	jegy, osztályzat
+gradually	@	fokozatosan, apránként
+graft	@	korruptció, vesztegetés, beolt, átültet
+grammar	@	nyelvtan
+grammar-school	@	gimi
+grant	@	megad, engedélyez, biztosít
+grapes	@	szőlő
+grapple	@	fogás, megragad
+grasp	@	megragad, felfog
+grass	@	fű
+grasshopper	@	szöcske, sáska
+grate	@	reszel
+gratitude	@	hála
+grave	@	sír (temetőben)
+graveyard	@	temető
+Great Plain 	@	Alföld
+greenhouse	@	üvegház
+greenish	@	zöldes
+grey	@	szürke
+grief	@	bánat, szomorúság, baleset
+grievance	@	sérelem, panasz
+grim	@	zord, nyomasztó, ijesztő
+grow	@	nőni, termelni
+grow apart	@	elválik, külön él
+grower	@	termelő
+growling	@	morog, zsörtölődik
+grunt	@	morgás
+guard	@	őr, gárda
+guardian	@	gyám, őrző, felügyelő
+guess	@	találgatás, becslés
+guide	@	idegenvezető, kalauz
+guidelines	@	szempontok, vezérfonal
+guilty	@	bűnös
+gust of wind	@	szélroham, széllökés
+gusto	@	élvezet, gyönyör, kedv
+gut	@	bél, belső részek, folyószűkület
+gut	@	bél, kibelez
+habit	@	szokás
+hair	@	haj
+hairpin	@	hajtű
+hairy chest	@	szőrös mellkas
+hall	@	előszoba
+halo	@	napgyűrű, fényudvar, dicsfény
+hand in	@	átnyújtani
+handcuff	@	bilincs
+handcuff	@	bilincs, megbilincsel
+handle	@	kezel, bánik, megfog
+handsome	@	jóképű
+hanging	@	függő
+happened	@	történt
+hard drink	@	alkoholos ital
+hardcore	@	megrögzött, keménymag
+hardly	@	alig
+hardly ever	@	szinte soha
+hardship	@	nehézség, megpróbáltatás
+hard-working	@	szorgalmas
+harm	@	kár, baj, sérelem
+harmless	@	ártalmatlan
+harness	@	kihasznál, hasznosít
+has a lot on his plate	@	van egy csomó…
+hassle	@	szóváltás,zűrzavar
+hat	@	sapka, kalap
+hate	@	utálni
+hatred	@	gyűlölet, utálat
+haul	@	erőteljes húzás, szállítás, vontat
+haunt	@	törzshely, gyakran látogat, háborít
+haunted	@	kísértetjárta
+have lie-in	@	lustálkodni
+have nap	@	nappali alvás
+have run out of them	@	kifogytunk
+have snack	@	nassolni
+havoc	@	elpusztít, letarol, dúlás
+hawker	@	utcai árus
+haze	@	köd, pára, megdorgál
+head	@	megy 1 irányba, vezet
+health resort	@	gyógyüdülőhely
+heap	@	rakás, halom, kupac
+heartily	@	szívesen, szívből
+hectic	@	izgatott
+hedge	@	sövény
+heed	@	figyelem, óvatosság, ügyel
+hegemony	@	uralkodó szerep, fennsőbbség
+heirloom	@	családi örökség
+helm, helmet	@	sisak, kormány (hajón)
+here	@	itt
+hermit	@	remete
+hide	@	elrejt
+highlight	@	kiemel
+hill	@	domb, szikla, hegy
+hinder	@	gátol, akadályoz
+hint	@	jel, nyom, tanács
+hip	@	csipő, búskomor, csipkebogyó
+his name is on everyone's lips	@	sokat beszélnek róla
+hit	@	siker
+hit a nail into the wall	@	szöget ver a falba
+hive	@	méhkas, kaptár
+hollow	@	üreges, lyukas
+homage	@	hűbéreskü
+homeless	@	hontalan
+homicide	@	gyilkos, emberölés
+honest	@	becsületes, őszinte
+honk	@	türkölés, gágog
+hoot	@	kifütyül, huhog
+hoover	@	porszívózik
+hop	@	komló
+hopeslessly	@	reménytelenül
+horrible	@	nem kedves, szörnyű
+hospitality	@	vendégszeretet
+host	@	vendégül lát
+hostile	@	ellenség(es)
+hostility	@	rosszakarat, ellenséges, viszálykodás
+hot spring	@	hőforrás
+hourly rate	@	órabér
+how about +fn	@	mit gondolsz…? Mit szólsz…?
+how long	@	mióta
+however	@	mégis, mint akárhogy
+howl	@	üvöltés, ordítás
+hulking	@	otromba, lomha
+humanity	@	emberség, jóság
+humble	@	alázatos, szerény
+humidity	@	nyirkosság, páratartalom
+humility	@	alázat, megadás
+hunch	@	púp, kinövés, gyanú, ösztön
+hungarian cuisine	@	magyar konyha
+hurt	@	sérülés
+husband	@	férj
+hypotetic	@	feltételezett
+i am in a hurry	@	sietek
+i am sure	@	biztos vagyok benne
+i can see in this picture	@	a képen látok…
+i don't know what to do	@	nem tom mit tegyek
+i don't pay for renting	@	nem fizetek a bérlésért
+i failed my exam	@	elbuktam a vizsgán
+i fell sick	@	betegnek érzem magam
+i have a sor throut	@	fáj a torkom
+i have butterflies in my stomach	@	lámpaláz
+i have got the hang of	@	csínja-bínja
+i have tonsilitis	@	mandulagyulladásom van
+i hope	@	remélem
+i learned all these things by rote	@	bemagol
+i passed my exam	@	átmentem a vizsgán
+i take my dog for a walk	@	kutyát sétáltat
+i think	@	sztem
+icy	@	jeges
+identity	@	azonosság, személyazonosság
+if he said that, we were safe, then safe we were	@	ha azt mondta biztonságban vagyunk, akkor biztonságban voltunk
+ignited	@	meggyújt, hevít
+ignorant	@	műveletlen
+ignore	@	szándékosan, figyelmen kívűl hagy
+imagination	@	képzelet, fantázia
+immediacy	@	sürgősség, közvetlenség
+immediately	@	azonnal, közvetlenül
+immensely	@	mérhetetlenül
+imminent	@	fenyegető, közelgő
+impact	@	lökés, rázkódás, összeütődés, hatás
+impatient	@	türelmetlen
+impeccable	@	fedhetetlen, csalhatatlan
+impel	@	hajt, mozgat, űz
+implement	@	kivitelez, megvalósít, végrehajt, háztartási eszköz, szerszám
+implication	@	belekeveredés
+implication	@	lehetséges, jövőbeli hatás
+imply	@	sejteti
+important	@	fontos
+impose	@	rákényszerít, rátesz
+impressive	@	lenyűgöző
+imprisonment	@	bebörtönzés
+impromptu	@	rögtönzött
+improvement	@	fejlesztés
+in 	@	ban ben
+in a fix	@	kátyúban van
+in a tight spot	@	pácban van
+in addition	@	továbbá, mellett
+in an awkward situation	@	kényelmetlen helyzetben van
+in charge	@	szolgálatos, ügyintéző
+in fact	@	tény
+in front of	@	valami előtt
+in my optinion	@	sztem
+in return	@	viszonzásul
+in the background	@	háttérben
+in the spotlight	@	reflektorfényben
+in time	@	időben
+inability (to eat)	@	képesség hiánya
+inaccessible	@	megközelíthetetlen
+incentive	@	ösztönző
+included	@	tartalmaz, magába foglal
+inconclusive	@	nem meggyőző
+inconvenience	@	alkalmatlanság, kellemetlenség
+incur	@	előidéz
+incursion	@	betörés, hirtelen támadás
+indeed	@	valóban
+indemnity	@	jótállás, biztosíték, kártalanít
+indescribability	@	leírhatatlanság
+indicative	@	jelzés értékű, előzetes
+indicator	@	mutató
+indifference	@	közöny, elfogulatlan
+indignation	@	felháborodás, ingerültség
+indignity	@	méltatlanság, megalázás
+indirect	@	közvetett
+indispensable	@	nélkülözhetetlen
+individual	@	egyén
+ineffable	@	szavakkal ki nem fejezhető
+inequality	@	egyenlőtlenség
+inevitable	@	elkerülhetetlen
+inevitably	@	szükségszerűen
+infamous	@	aljas, rossz hírű
+infant	@	csecsemő, kiskorú
+infect	@	megfertőz
+infest	@	eláraszt, háborgat, nyüzsög, hemzseg (féreg)
+infidelity	@	hűtlenség
+infiltrate	@	beszivárog
+infiniti	@	végtelen
+infinitive	@	főnévi igenév
+infirmary (sickbay)	@	begegszoba (laktanyában)
+influence	@	befolyásol, befolyás
+ingenuity	@	találékonyság
+ingredient	@	tartozék, alkotóelem
+inhabitant	@	lakó
+inherit	@	örököl
+inhibit	@	gátol, akadályoz
+initial	@	kezdeti
+initiative	@	kezdeményezőkészség
+ink	@	tinta
+inland	@	belföldi
+inn	@	fogadó
+inn keeper	@	fogadós, kocsmáros
+inner lake	@	belső tó
+innocent	@	ártatlan
+inquiry	@	érdeklődés
+insane	@	elmebajos, őrült, esztelen
+insanity	@	őrültség, örület, elmezavar
+insect	@	rovar,bogár
+insensitive	@	közönyös
+insignia	@	katonai jelzés, jelvény
+insist	@	ragaszkodik vmihez
+insist on	@	ragaszkodik vmihez
+inspection	@	vizsgálat, nyomozás
+install	@	beszerel
+installment	@	részlet, részletfizetés
+instance	@	kérelem
+instant	@	gyors, azonnali
+instead	@	helyett
+instinct	@	ösztön, hajlam
+institution	@	alapítás, intézet,, intézmény
+instrument	@	eszköz, hangszer
+insufficien	@	elégtelen, nem hatékony
+intact	@	ép, sértetlen, szűz, nem herélt állat
+intangible	@	immateriális
+intend	@	szán, előirányoz
+intention	@	szándék
+interest	@	kamat
+interest-bearing	@	kamatozó
+interestingly	@	érdekesen
+interfere	@	beavatkozik
+interference	@	beavatkozás, vételi zavar
+intermediary	@	közvetítő
+interminable	@	véget nem érő
+interpret	@	értelmez, lefordít
+interrogation	@	vizsgáztatás, vallatás
+intersect, intersection	@	metsz, kereszteződés
+interval	@	intervallum, időköz
+intervention	@	közbelépés, beavatkozás
+introduce	@	bemutatkozni
+intrusion	@	bitorlás, betolakodás
+inventor	@	feltaláló
+inventory	@	leltár
+inviting	@	csábító, vonzó
+invoice	@	számla
+invoke	@	segítségül hív (istent, emléket
+involve	@	belekever, magába foglal, göngyöl
+involved	@	eladósodott
+involvement	@	részvétel
+in-with	@	divatos
+irreversible	@	visszafordíthatatlan
+is a closed book for you	@	ismeretlen terület
+is just around the corner	@	már közeleg
+issue	@	kiad, folyóirat, utód, ügy
+issue	@	forgalomba hoz (bankjegy)
+it comes to	@	szóba kerül
+it is up in the air	@	lóg a levegőben
+it's none of your business	@	nem a te dolgod
+ivy	@	borostyán
+jaw	@	álkapocs
+jealous	@	féltékeny, irigy
+jewish	@	zsidó
+jigsaw	@	puzzle
+job posting	@	álláspályázatot kiír
+jointly 	@	közösen
+jostle	@	lökdös, taszigál
+jot down	@	lejegyez
+journey	@	utazás
+joy	@	öröm, élvezet
+juggler	@	zsonglőr, bilincs
+julopy	@	tragacs
+junk jewelry	@	bizsu
+just	@	éppmost, csak
+justifiable	@	igazolható
+justify	@	igazol, indokol
+keen	@	lelkes
+keen on	@	kijönni vkivel
+keep the change	@	tartsd meg a visszajárót
+kidnapper	@	emberrabló
+kind	@	kedves
+kind of personality	@	személyi tulajdonság
+kitchen	@	konyha
+kittens	@	kiscicák
+knee	@	térd
+kneel	@	térdel
+knit	@	köt (kötőtűvel)
+knock	@	megüt
+know	@	tudni
+know nothing about	@	semmit nem tud róla
+know-how	@	technikai tudás
+knowledge	@	ismeret, tudás
+knuckle	@	csülök
+labour	@	munka
+labour force	@	munkaerő
+labour union	@	szakszervezet
+lack 	@	valami hiányzik
+lack of variety	@	változatosság hiánya
+lad	@	legyén, fickó
+ladder	@	létra
+lamb	@	bárány
+lame	@	béna, sánta
+landed on top of	@	vminek a tetején landolt
+landmark	@	történelmi épület
+landscape	@	táj, vidék
+landscape protection reserve	@	tájvédelmi terület
+lantern	@	lámpás
+lard	@	sertészsír
+lase	@	enyhít
+late	@	későn
+lately, recently	@	mostanában
+launched	@	kilőtte
+launder money	@	pénzt mos
+lawn	@	pázsit, gyep
+lawyer	@	ügyvéd
+lay	@	lefektet, lerak
+layer	@	réteg
+layout	@	formátum, elrendez és
+lazy	@	lusta
+lead	@	ólom
+leaf	@	lomb, levél
+leap	@	ugrás
+leapt up	@	felszökik, feltör, kibuggyan
+lease	@	bérel 
+least of all	@	legkevésbé
+leave sg behind	@	elhagy, otthagy, ottfelejt
+left	@	bal, elhagyni
+leftover	@	fölösleges, maradék
+legacy	@	hagyaték
+legal department	@	jogi osztály
+legal entity	@	jogi személy
+legal tender	@	tves fizetőeszköz
+legally binding	@	kötelelző érvényű
+legislation	@	törvények
+leisure	@	szabad, pihenő, elfoglaltság nélküli
+lend	@	kölcsön ad
+lenient	@	elnéző, szelíd
+less	@	kevés, kevesebb, kisebb
+let	@	hagy
+let alone	@	nem is szólva
+let me know, when to get off	@	tudassa velem, mikor kell leszállni
+let's +főnévi igenév	@	gyerünk
+leverage	@	tőkeszerkezet, tőkeáttétel
+leverage	@	befolyás, áttétel, emelőhatás
+liabilities	@	kötelezettségek, tartozás
+liability	@	jogi felelősség, kötelezettség
+licking	@	nyalás, nyalogatás
+lid	@	fedél, kupak, szemhély
+lien	@	zálogjog
+lieutenant	@	hadnagy, főhadnagy
+life expentancy	@	várható élettartam
+lifespan	@	élettartam
+like	@	szeretni, kedvelni, tetszik
+likelihood	@	valószínűség
+limestone cave	@	cseppkőbarlang
+limited liability company	@	kft
+limited partnership	@	bt
+linked	@	összekapcsolt
+liors	@	hazug
+lips	@	ajak
+liquid	@	folyékony
+listen to music	@	zenét hallgat
+lit	@	meggyújt
+litigation	@	pereskedés
+live	@	élni,lakni
+liven up	@	felélénkít
+liver paste	@	májkrém
+living room	@	nappali  
+located	@	helyhez kötött
+lodge a complain	@	panaszt tesz
+lonely	@	magányos
+look	@	nézni, figyelni
+look after	@	vigyázni
+look at	@	megnézni
+look for	@	keresni
+loop	@	hurok, csomó, fogantyú, kampó
+loose	@	lezser
+lose one's balance	@	egyensúlyát veszti
+loudly	@	hangosan
+low-cost airline	@	fapados légitársaság
+lucid	@	világos, érthető, fényes
+lung	@	tüdő
+lure	@	csali, csábítás
+lying	@	hazugság
+mad 	@	őrült
+magnetic stripe	@	mágnes csík
+magnificent	@	csodálatos
+maid	@	szobalány
+main course	@	főétel
+mainland	@	szárazföld
+mainly	@	főleg
+maintain	@	fenntart
+major	@	őrnagy, nagyfokú
+major stumbling block	@	nagyfokú akadály
+majority	@	többség
+makes my life difficult	@	megnehezíti az életem
+malevolence	@	rosszakarat
+malice	@	rosszindulat, gúny
+mammal	@	emlős
+mandatory	@	kötelező
+mane	@	sörény
+manifestation	@	megnyilvánulás
+manner	@	módszer, modor
+mansion	@	kastélyszáló
+manufacture	@	gyárt, előállít
+marbe	@	márvány
+march	@	felvonulás  
+marginal	@	határeset
+mark	@	nyom, kézjegy, jel
+marking	@	árujelzés
+marriage	@	házasság  
+marsh	@	láp
+marvel	@	csoda
+masculine	@	férfias
+mast	@	árbóc
+master	@	úr, gazda, mester
+match	@	gyufa
+maternal	@	anyai
+matter	@	anyag, baj, dolog
+matter	@	számít, fontossággal bír
+mature	@	esedékes, érett
+maturity date	@	lejárati idő
+mayor	@	 polgármester
+meal	@	étkezés
+mean 	@	fukar, zsugori
+meaningful	@	jelentőségteljes
+meaningful activity	@	értelmes tevékenység
+meanwhile	@	időközben
+measure	@	megmérni
+meat	@	hús
+medium of exchange	@	csereeszköz, forgalmi eszköz
+melt	@	olvad, olvaszt
+memorised	@	memorizál
+menace	@	veszély, fenyegetés
+mend	@	kijavít, folt, javulás
+merciless	@	irgalmatlan, könyörtelen
+merely	@	csupán
+merger	@	vállalategyesítés
+merit	@	érdem
+mermaid	@	sellő
+micro wave oven	@	mikró sütő
+midnight	@	éjfél
+midset	@	megrögzött, eltökélt ?
+mild	@	szelid, jámbor, enyhe, lágy, könnyű
+minced	@	darált
+minor	@	kicsi
+mirage	@	délibáb
+mirror	@	tükör
+miscarriage	@	téves szállítás
+mischief	@	pajkos
+miserable	@	nyomorult, siralmas
+misery	@	szenvedés, kín
+mismatch	@	összenemillés
+misread	@	félreért, rosszul olvas
+missing	@	hiányzik
+mist, fog	@	köd
+mistake	@	hiba
+mitigation	@	kár minimalizálása
+mixture	@	keverék
+moan	@	nyögés
+mob	@	nép,csőcselék, tömeg
+mockery	@	gúnyul, utánoz
+modest	@	szerény
+molar	@	zápfog, bölcsességfog
+momentum	@	mozzanat, lendület, nyomaték
+money supply	@	pénz kínálat
+monument	@	emlékmű
+mood	@	hangulat
+moonless	@	holdtalan
+moor	@	mocsár
+moot	@	vitás, tanácskozó, felvet
+more	@	több
+more or less	@	többé kevésbé
+mortal	@	halandó, halálos, rettenetesen
+mortgage	@	jelzálog
+mortgagor	@	jelzálogadós
+mostly	@	főként, többnyire
+motion	@	mozgás
+motionless	@	mozdulatlan
+mountain	@	hegység
+mourn	@	gyászol, sirat
+moustache	@	bajusz
+mouth-watering	@	étvágygerjesztő
+much talked about	@	sokat beszélnek róla
+muck	@	trágya, mocsok, moslék
+mud	@	sár
+mudhut, bungalow	@	egyszerű lakás
+mug	@	bögre
+multiple store	@	üzletlánc
+Museum of Fine Art	@	Szépművészeti Múzeum
+mushroom	@	gomba
+mutiny	@	lázadás, zendülés
+mutual, common	@	közös, kölcsönös
+my noise is running	@	folyik az orrom
+nail	@	szög 
+naked	@	meztelen, csupasz
+napkin	@	szalvéta
+narrow	@	szűk, figyelmes
+nasty	@	piszkos, komisz
+national antheim	@	nemzeti himnusz
+natural endowments	@	természeti adottságok
+naughty	@	csintalan
+naval dock	@	hadi kikötő
+near	@	közelben
+nearly	@	majdnem, közel
+neat	@	takaros, csinos, ízléses
+neatly	@	rendesen, ügyesen
+necessary	@	szükséges
+neck	@	nyak
+neglected	@	elhanyagolt
+negligence	@	hanyagság
+negligible	@	elhanyagolható
+negotiate	@	egyezkedik, tárgyal
+negotiation	@	tárgyalás
+neighbour	@	szomszéd
+neighbourhood	@	szomszédság
+neither	@	egyik sem
+neither…nor…	@	sem…sem
+nephew	@	unokaöccs
+nervous	@	ideges, nyugtalan, félénk, erős
+never	@	soha
+next to, close to, beside	@	mellett
+niece	@	unokahúg
+nightfall	@	alkonyat
+nightmare	@	rémálom
+no longer the case	@	már nem így van
+no win situation	@	nincs nyertes helyzet
+noble	@	nemes, előkelő
+noble	@	nemes
+no-brainer	@	egyértelmű
+nod	@	bólintás
+noise	@	zaj, lárma
+nook	@	sarok, zug, bemélyedés
+noon	@	dél (napszak)
+noose	@	hurok
+nor	@	sem
+nostrils	@	orrlyuk
+not at all	@	nincs mit
+note	@	bankjegy, hang, feljegyzés
+notice	@	észlelni
+notion	@	elképzelés, nézet, vélemény, szándék
+numb	@	zsibbadt, kábult
+nursery	@	óvoda
+nutshell	@	dióhély
+oak	@	tölgyfa
+oar	@	evező
+obedient	@	engedelmes
+obese	@	elhízott, hájas
+obesity	@	elhízottság
+obey	@	engedelmeskedik
+object	@	ellenkezik, tiltakozik, dolog, tárgy
+object to 	@	ellenkezik, tiltakozik
+objection	@	tiltakozás
+objective	@	tárgyilagos, célpont, feladat
+obligation	@	kötelezettség
+oblivious	@	feledények, ájult
+obscenity	@	szemérmetlenség, trágárság
+obscure	@	sötét, homályos, rejtett, ismeretlen
+observation	@	megfigyelés
+obsolate	@	elavult
+obstacle	@	akadály 
+obstacle-free	@	akadálymentes
+obstinate	@	csökönyös, makacs
+obtain	@	szerezni, megszerezni
+obtuse	@	tompa, meggyengült, korlátolt (szellemileg)
+obvisously	@	nyilvánvalóan
+occasion 	@	alkalom
+occasionally	@	alkalmanként
+occupation	@	foglalkozás
+occupy	@	elfoglal
+occur	@	akad, megesik
+odd	@	szokatlan,furcsa
+odds	@	valószínűség
+off the book	@	szla nélkül
+offence	@	tvbe ütköző cselekedet
+offend	@	megsértődni, neheztel
+offenders	@	elkövető
+often	@	gyakran
+omission	@	mulasztás
+on	@	on en ön
+on the left side	@	bal oldalon
+on the spit	@	nyárson
+on time	@	pontosan
+on top of	@	tetején, rajta
+onward	@	előre, tovább
+opponent	@	ellenfél
+opportunity	@	kedvező alkalom, lehetőség
+oppose	@	szembeszáll, ellenez
+opposite	@	szemben
+oppressive	@	elnyomó, leigázó, nyomasztó
+opt between	@	dönt vmi között
+opt for	@	dönt vmi mellett
+orchestras	@	zenekar
+ordinary	@	közönséges, hétköznapi
+ore	@	érc
+organization	@	szervezet
+origin	@	eredet
+originaly	@	eredetileg
+orphanage	@	árvaház
+otter	@	vidra
+ought	@	illene, kellene
+ought to	@	kellene
+outcome	@	végeredmény, következmény
+outlet	@	kereskedelmi egység
+outsmart	@	túljár az eszén
+outweigh	@	túlsúlyban van
+overall, manufacturing, unit cost	@	össz, gyártási, egység ktg
+overboard	@	túlzás, túlzott
+overcome	@	leküzd
+overdraft	@	folyószámla hitel
+overheads	@	rezsiktgek
+overlay	@	borítás
+overload	@	túlterhelt
+overview	@	áttekintés
+owe	@	tartozik vkinek
+pace	@	járás, lépés
+pace of life	@	életritmus
+pain	@	fájdalom
+painful	@	fájdalmas
+painkiller	@	fájdalomcsillapító
+pale	@	sápadt
+pall	@	szemfedél, köpeny, jóllakik
+palm	@	pálma, tenyér, marok
+palpable	@	megtapintható, kézzelfogható
+pamper	@	kényeztetni
+pan	@	lábas
+pang	@	nyilalás, kín, haláltusa
+pantalo, trouser	@	nadrág
+par value	@	névérték
+par value	@	névérték
+paralell	@	egybevetni
+paramount	@	legfelső, legelső, kiemelkedő
+parcel	@	telek, rakás, csomag
+parents	@	szülők
+parish	@	paróka, plébánia
+parsley leaf	@	petrezselyem
+participant	@	résztvevő
+particulary	@	különösebben
+partnership	@	társaság
+party animal	@	parti arc
+pass	@	bérlet
+pass with flying colours	@	kiváló eredménnyel megfelelni
+passage	@	átkelés, átjárás
+passanger	@	utas
+pastry-cook	@	cukrász
+pasture	@	legelő
+patience	@	türelem
+patient	@	türelmes
+patriotism	@	hazafiság
+patron	@	pártfogó, állandó vevő
+pattern	@	minta, sablon
+pavement	@	járda
+paw	@	mancs
+pawn	@	zálog
+pay	@	fizetni
+payment in advance	@	előre fizetés
+pay-roll accounting	@	bérelszámoló
+pea	@	borsó
+peak	@	csúcs
+pear	@	körte
+pearl	@	gyöngy
+peasant	@	paraszt
+peddler	@	házaló
+peel, shell	@	héj
+peg	@	rögzít
+pen	@	toll
+pending payment	@	függőben lévő
+penetrate	@	áthatolni
+penetration	@	behatolás, éleslátás
+peninsula	@	félsziget
+penknife	@	zsebkés, bicska
+pension scheme	@	nyugdíjbiztosítás
+pensioner, retired	@	nyugdíjas
+pensive	@	elgondolkodó, töprengő
+penthouse	@	féltetős, toldaléktető, fészer
+per capita	@	1 főre jutó
+percent	@	százalék
+perform	@	előad
+perhaps	@	talán
+peril	@	kockázatos
+perish	@	tönkremegy, elromlik, megromlik
+perishable	@	romlandó áru
+perks	@	béren kívüli juttatások
+permanent	@	tartós
+permissible	@	megengedhető
+permission	@	engedély, jóváhagyás
+permissive	@	engedékeny
+permit	@	engedély
+perpetrator	@	elkövető
+perplexed	@	megzavarodott, elképedt
+personal particulars	@	személyi adatok
+perspective	@	távlat
+persuade	@	meggyőz, rábeszél
+pesticide	@	növényvédő szer, kártevő
+phenomenon	@	jelenség
+phrase	@	kifejezés, mondat
+picketing	@	felvonulás, tüntetés
+picnic hamper	@	piknik csomag, kosár
+picture	@	kép
+piece	@	darab
+pike	@	csuka, lándzsa
+pile of 	@	egy halom
+pile of luggage	@	egy halom csomag
+pill	@	pirula
+pillows	@	párna
+pine	@	fenyő
+pink-collar worker	@	női munkát végző
+pirate	@	kalóz
+pitch	@	szurok
+pitfalls of life	@	az élet buktatói
+pity	@	sajnálat, szánalom, könyörület
+pivot	@	forgócsap, sarkallatos dolog, főtámasz, pillér
+pivot	@	fordul, forgócsap
+placed an order	@	megrendelést feladta
+placid	@	szelídség, nyugalom
+plain	@	egyszerű, sima, tisztán látható
+plaintiff	@	felperes
+plaster	@	gipsz, tapasz
+plate	@	tányér, tábla
+plateau	@	fensík, dísztál
+play 	@	játszani
+plea	@	kifogás, védőbeszéd
+pleasant	@	kellemes
+pleased	@	elégedett, örül (~ to meet you)
+pleasure	@	öröm, élvezet
+plenty of	@	sok van valamiből, jólét
+pliable	@	hajlékony, rugalmas
+plot (of land) 	@	telek, rakás, csomag
+plum	@	szilva
+poachers	@	orvvadász
+pocket	@	zseb 
+poem	@	vers
+point of view	@	nézőpont
+pointed	@	hegyes
+pointed hands	@	hosszú, karcsú kezek
+polarised	@	megosztott
+polite	@	udvarias
+politely	@	udvariasan
+poll	@	szavazás
+pompous	@	nagyképű, pompás
+poor	@	szegény
+popular	@	népszerű
+port- salut	@	trappist
+portable	@	hordozható
+possess	@	bír, birtokol, ura vminek
+possession	@	birtoklás
+possessive	@	birtokos
+postpone	@	elhalaszt
+posture	@	testtartás
+potato	@	burgonya
+potential	@	lehetséges 
+pour	@	ömleni, beönt
+pour	@	önt, ömlik
+poverty	@	szegénység
+powder	@	por, lőpor
+practice	@	gyakorlás
+pram	@	gyermekkocsi
+prayer	@	ima, imádság
+preamble	@	bevezetés, indoklás
+precipitation	@	csapadék
+precondition	@	előfeltétel
+predecessor	@	előd
+predicament	@	kínos, kellemetlen helyzet
+predict	@	megjósol
+preemptive rights	@	elővételi jog
+preffered stock	@	elsőbségi részvény
+pregnant	@	terhes
+prejudice	@	előítélet
+prelude	@	előjáték, bevezet, beharangoz
+prelude	@	előjáték, bevezetés
+premature	@	korai, idő előtti
+prenuptial agreement	@	házassági szerődés
+prepare	@	felkészül, előkészít
+preposterous	@	oktalan, ostobaság
+prescribe a medicine	@	orvosságot felír
+presence	@	jelenlét
+preserve	@	megőriz
+press	@	nyomda, sajtó
+pressure group	@	érdekvédelmi csoport
+presumable	@	feltételezhető
+pretend	@	tettet, színlel
+pretty	@	csinos, nagyon, meglehetősen
+prevalance	@	gyakoriság
+prevent	@	megakadályoz, megelőz
+previous	@	megelőző
+prey	@	zsákmány, préda
+pricing	@	árszabás
+principal	@	tőke (hitelé)
+principal	@	megbízó
+principal	@	első vezető, felgfőbb személy
+principle	@	elv, alap
+prior	@	előzetes, perjel
+prize	@	díj
+probably	@	valószínűleg, talán
+proceed	@	halad, eljár, folytatódik
+processing	@	feldolgozás
+prodigy	@	csoda
+profession	@	hivatás
+profit and loss account	@	eredménykimutatás
+profit margin	@	haszonkulcs
+profound	@	alapos, mélyreható
+promise	@	ígéret
+promotion	@	előléptetés, reklámozás
+promotion opportunity	@	előlépési lehetőség
+pronoun	@	névmás
+proper	@	megfelelő, alkalmas, sajátos
+properly	@	helyesen, illően
+property	@	tulajdon, vagyon,
+proponent	@	támogató, javasoló
+proportion	@	arány
+proposal	@	ajánlattétel, javaslat
+propose	@	inditványoz, javasol
+proposed	@	tervezett
+prospect	@	kilátás, lehetőség
+protest	@	tiltakozás, kifogásolás, óvás
+proud	@	büszke
+prove	@	bizonyít
+provides	@	gondoskodik
+provision	@	intézkedés, ellátás
+prudent	@	okosan, megfontolt
+prune	@	aszaltszilva, megnyes (metsz)
+public institution	@	közintézmény
+public procurement	@	közbeszerzés
+public security	@	közbiztonság
+public utilities	@	közművek
+pull back	@	visszahúzódik
+pulp	@	pép, őrölt, ujjbegy
+pumpkin	@	tök
+puncture	@	defekt, lyuk
+punishment	@	büntetés
+puny	@	apró, kistermetű
+pupil	@	tanuló (ált isk)
+puppet	@	bábu, figura
+purchase market	@	beszerzési piac
+purchases	@	venni, előny, hozam
+purchasing power	@	vásárlóerő
+purge	@	hashajtás, tisztogatás, megbűnhődik
+purify	@	szűrni
+purpose	@	cél,szándék, terv
+purse, wallet	@	pénztárca
+pursue	@	üldöz
+push aside	@	félretol
+push sy around	@	erőszakoskodik vele
+pushy	@	erőszakos, tolakodó
+put together	@	összeilleszteni
+put upon	@	rászed
+quantity discount	@	mennyiségi engedmény
+quarantee	@	garantálni, biztosítani
+quarell	@	vita, veszekedés
+queue	@	sor
+quick	@	 gyors
+quiet	@	csend
+quirky	@	köntörfalazó, kertelő
+quite	@	eléggé teljesen
+quota	@	kvóta
+quotation	@	árfolyamjegyzés
+quote a rate	@	árfolyamot jegyez
+raccoon	@	mosómedve
+raft	@	tutaj
+rag	@	cafat, rongy, foszlány
+rage	@	harag, szeszély, hóbort
+raider	@	fosztogató
+rake	@	dől, gereblye
+ram	@	kos, faltörő kos, döngölő
+range of something	@	választék vmiből
+rank 	@	besorolás
+rapid	@	sebes, zuhatag
+rapidly	@	gyorsan
+rare	@	ritka, nyers (hús)
+rat race	@	mókuskerék, létharc
+rather	@	eléggé  
+razor	@	borotva
+reach	@	ér valahová
+readi-made dishes	@	készétel
+realised	@	észlelni, felfogni
+realy, seldom	@	ritkán
+really into	@	benne lenni vmiben
+reap	@	arat
+reappear	@	újra megjelenik
+reason	@	ok, indok
+reasonable	@	ésszerű
+recall	@	felidéz
+recede	@	hátrál, csökken
+receipt	@	blokk, nyugta, elismervény
+receive	@	elfogad, megkap
+receiving	@	felfog, vétel, vendégül lát
+recent	@	korszerű
+recession, economy crisis	@	gazdasági válság
+reckless	@	vakmerő
+recognize	@	felismer
+recoil	@	visszarúg, visszasiklik, - ugrik, -hat, következmény
+recommand	@	tanácsol, ajánl
+recon	@	felderítés
+reconcile, negotiate	@	egyeztet
+reconciliation	@	egyeztetés
+recount	@	elbeszél, újraszámlál
+recoup	@	kártalanít
+recover	@	meggyógyul, felépül
+recreation centre	@	üdülőközpont
+recruit	@	újonc
+redemption	@	megváltás, visszafizetés
+redundant	@	bőség, felesleg
+refer	@	besorol, azonosít, utal
+reference	@	utalás, hivatkozás
+reform school	@	javító intézet
+refrain	@	refrén, utóíz, tartózkodik
+refugee	@	menekült
+refund	@	visszatérít
+refurbished	@	felfrissült
+refuse	@	hulladék, visszautasítás
+regard  	@	vkire vmire 1 bizonyos módon gondol
+regard sy to	@	valakinek tekint vkit
+regardless	@	tekintet nélkkül
+regret	@	sajnál, megbán
+regular	@	szabályos, rendszeres
+reindeer	@	rénszarvas
+relapse	@	visszaesés
+related	@	kapcsolódó
+relative	@	rokon
+relaxed	@	nyugodt
+release	@	kieresztés, kienged
+relevant	@	tárgyhoz tartozó
+reliable	@	megbízható
+relied	@	megbíz 
+relief	@	megkönnyebbülés
+relieve	@	könnyít, segít
+relieve	@	enyhít
+religion	@	vallás
+reluctant	@	vonakodó, habozó
+reluctant	@	vonakodó
+rely on	@	számít valamire
+remark	@	észrevétel, megjegyzés
+remarkable	@	figyelemre méltó
+remendy	@	gyógyszer, orvosság
+reminder	@	emlékeztető, figyelmeztető
+reminiscent	@	visszaemlékezés, múltat idéző
+remittance	@	átutalás
+remnant	@	maradék, maradvány
+remote	@	távoli, táv
+render	@	kisüt, visszaad, benyújt
+renumeration	@	díjazás, bérezés
+repeatedly	@	ismételten
+repel	@	visszaszorít, visszataszít
+repetitive	@	monoton
+replicate	@	válaszol
+reply	@	válaszol, felel
+representative	@	képviselő
+representative basket of goods	@	
+reprimand	@	dorgálás, megrovás
+reproach	@	szemrehányás,szégyen
+reputation, fame	@	hírnév
+requirement	@	követelmény
+resemble	@	hasonlít vmihez
+resent	@	megsértődni, neheztel
+resentment	@	neheztelés, megbántódás
+reserved	@	zárkózott
+residental home for elderly	@	idősek otthona
+resolution	@	határozat, megoldás
+resourceful	@	találékony, talpraesett
+resources	@	erőforrások
+response	@	válaszol, ragál
+responsibility	@	felelősség
+rest	@	pihenés, maradék
+restore	@	felújít, helyreállít
+restrain	@	korlátoz, féken tartani
+restrict	@	korlátoz, megszigorít
+result	@	eredmény
+retail price index	@	kisker árindex
+retail\commerce bank	@	ker bank
+retain	@	megtart, emlékszik
+retalitory restriction	@	megtorló korlátozás
+retch	@	öklendezés, hányinger
+reticence	@	szűkszavú, zárkózott
+retreat	@	visszahúzódik
+retrieve	@	visszahoz, aportíroz
+reveal	@	felfed, feltár
+revenge	@	megbosszul
+revenue	@	jövedelem
+revert	@	visszatér, visszaáramlik
+revive	@	feléleszt, felvirágoztat
+revolve	@	forog, kering
+revulsion	@	hirtelen változás, visszahatás
+reward	@	jutalom
+rib	@	borda
+ribbing	@	bordázat, erezet, ugratás
+riddle	@	rejtély, talány
+ridge	@	perem, hegygerinc
+rifle	@	vadászpuska, karabély
+riot	@	zendülés
+rise	@	emelkedik, felkel (nap)
+rivalry	@	versengés
+road consignment note	@	közúti fuvarlevél
+roar	@	ordít, üvöltés
+rod	@	horgászbot, bot, pálca
+role	@	szerep
+roof	@	tető
+root	@	gyökér
+rope	@	kötél, kötöz
+rot	@	rohad
+rotten	@	szúette, nyamvadt
+rough	@	érdes, nehéz, durva, nyers
+roundabout	@	körforgalom
+rout	@	út, útvonal
+row	@	evez
+royal	@	királyi
+rubber	@	radír
+rubbing	@	dörzsölő, dörgölés, fényesít
+rubbish	@	szemét
+rude	@	durva, goromba, nyers
+rueful	@	bánatos, gyászos, szomorú
+rug	@	szőnyeg (kicsi)
+ruin	@	romlás, összeomlás
+rule out	@	elvet (ötletet)
+rules	@	szabályok
+rumour	@	találgatás, pletyka
+rupture	@	törés, repedés, szakadás
+rural	@	vidéki, parasztos
+rush	@	roham, iramodás
+rush hour	@	csúcsforgalom
+rust	@	rozsda
+sack	@	rablás, zsák, kirúg
+sacrifice	@	áldozat
+sad	@	bánatos, szomorú
+sadness	@	szomorúság
+sailor	@	tengerész
+salad	@	saláta
+salary	@	fizetés
+sale	@	értékesítés
+saleable	@	eladható
+sales\purchasing department	@	értékesítés\beszerzési o.
+sallow	@	fűzfa, sárgás, sápad
+same	@	azonos, ugyanaz
+sampling	@	mintavétel
+satisfied	@	elégedett 
+satisfy	@	teljesít, kielégít, elégedetté tesz
+saucer	@	csészealj
+sausage	@	kolbász
+savage	@	barbár, szilaj, benszülött
+savant	@	tudós
+saviour	@	megmentő
+scandal	@	botrány, rágalom, szégyen
+scapegont	@	bűnbak
+scar	@	sebhely
+scarce	@	szűkös, ritka
+scarcity	@	szűkösség, ritkaság
+scarecrow	@	madárijesztő
+scarf	@	sál
+scarlet	@	skarlát, skarlátvörös
+scavenge	@	seper, tisztán tart
+scene	@	jelenet, látvány
+scenery	@	díszlet, színfal
+scent	@	szag 
+schedule	@	jegyzék, táblázat, ütemterv
+scientific	@	tudományos
+scissors	@	olló
+scone	@	pogácsa
+scopes	@	terület, tevékenységi kör
+scrambled eggs 	@	rántotta
+scrape through	@	épp átcsúszni
+scratch	@	karcolás
+screaming	@	sikítás
+screen out	@	kiszűr
+scuffle	@	dulakosás, viaskodás
+sculpture	@	szobor
+seamless	@	varratmentes
+seaside	@	tengerpart
+seat-belt	@	biztonsági öv
+second	@	2. 
+second to none	@	mindenki felett áll
+securities	@	értékpapírok
+seductive	@	csábító, meggyőző
+seems	@	tűnik
+segregated	@	elkülönített
+seizure	@	agyvérzés, megragadás, lefoglalás
+self-confidence	@	magabiztosság
+selfish	@	önző
+self-sufficient	@	önellátó
+self-taught	@	autodidakta
+sell	@	eladni
+selling point	@	előnyös tulajdonság
+semblance	@	látszat, hasonlóság
+sensible	@	józan, praktikus, érzékeny
+sensitive	@	fogékony, érzékeny
+sentence	@	mondat, ítélet
+separeted	@	elszigetelt
+serenity	@	derű, nyugalom, higgadtás
+serious	@	komoly,súlyos
+servant	@	szolga
+service charge	@	szolg. Díj
+set sy up with sg	@	ellát vkit vmivel
+settlement	@	megegyezés, letelepedés
+severally	@	egyénileg
+severe	@	szigorú, mogorva, rideg
+severe	@	aggasztó, súlyos
+sewage	@	szennyvíz
+shake hands	@	kezet ráz
+shakily	@	erőtlen, remegve
+shallow	@	sekély, lapos
+shameful	@	szégyenteljes
+shape	@	alak, forma
+shard	@	szilánk
+sharp	@	éles
+sharply	@	élesen
+sheath	@	hüvely, tok, burok
+shed	@	csűr, pajta
+sheets	@	ágynemű
+shelf	@	polc
+shelter	@	menedék
+shipping	@	szállítás
+shipping note	@	szállító jegy
+shirt	@	ing
+shiver	@	reszketés, vacogás
+shoe	@	cipő
+shore	@	tengerpart, tópart
+shortage	@	hiány
+shortage of labour	@	munkaerő hiány
+shortcomings	@	hiány, hiányosság, deficit
+shorthand and typing	@	gyors és gépírás
+shout	@	kiabál
+shrink	@	összehúzódás, összemegy
+shut	@	becsuk
+shy	@	félénk
+sibling	@	testvér
+sick bay	@	gyengélkedő
+sick, ill	@	beteg (komolyabb, enyhébb)
+sieve	@	szita
+sight	@	látás, -képesség, -határ
+sights	@	látnivalók
+sign	@	jel 
+silk	@	selyem
+silly	@	naív, szenilis, hülye
+similarities	@	hasonlóságok
+since	@	óta, időpont
+since when	@	mióta
+sincerely	@	őszintén, szívből
+sinister	@	vészjósló
+sink	@	mosogató
+sink	@	elsüllyed
+site	@	fekvés, hely, házhely, telek
+skill	@	képesség
+skilled worker	@	szakképzett munkás
+skin	@	arcbőr
+skinny	@	betegesen sovány
+skip	@	ugrás, kihagyás
+skirmish	@	csatározás
+skirt	@	szoknya
+skull	@	koponya
+slab	@	lap, tábla
+slag	@	salak
+slap	@	pofon vágni
+slate	@	palatábla
+slaughter	@	levágás, mészárlás
+slave	@	rabszolga
+sledge	@	szán
+sleeve	@	kabátujj
+sleigh	@	szán
+slender	@	karcsú, vékony, nem kielégítő tudás
+slight 	@	csekély
+slightly	@	alig, kissé
+slim	@	karcsú
+slime	@	iszap, nyálka
+slimming	@	fogyókúrás
+sling	@	parittya
+slip	@	megcsúszik
+slipperly	@	csúszós
+slope	@	lejtő
+slowly but surely	@	lassan , de biztosan
+smack	@	pofon
+smaller scale	@	kisebb horderejű
+smart	@	elegáns, okos
+smell	@	szagolni, érezni
+smirk	@	tetszelgő, önelégült
+smooth	@	elsimít, sima, zavartalan
+smooth running	@	egyenletesen futó
+smuggling	@	csempészet
+snare	@	csapdát állít
+snarl	@	vicsorog, zűrzavar
+snub	@	pisze, elhallgattat, lekezel
+snuggle up to somebody	@	vkihez odabújni
+so far	@	eddig
+soaking	@	átázik átázott
+sober	@	józan, komoly, megfontolt
+sociable	@	társaságkedvelő
+social security benefits	@	társadalombiztosítás
+sock	@	zokni
+soft drink	@	üdítő
+soil	@	termőföld
+solace	@	vigasz
+sole proprietorship	@	egyéni vállalkozás
+solely	@	kizárólag, csupán
+solicitation	@	kérelem, kérés
+solicited offer	@	ajánlatkérésre adott válasz
+solicitor	@	ügyvéd (uk)
+solid	@	szilárd
+solution	@	megoldás
+solve	@	megold, megfejt
+solvency 	@	fizetőképes
+solvent	@	oldószer, fizetőképes
+somebody	@	valaki
+something	@	valami
+sometimes	@	néha
+son	@	vkinek a fia
+soon	@	hamar, hamarosan
+soot	@	korom
+sorrow	@	sajnálkozás, szomorúság, bánat
+sort	@	válogat
+soul	@	lélek
+soundproof	@	hangszigetelt
+soup	@	leves
+sour	@	savanyú
+sour cherry	@	meggy 
+sour cream	@	tejföl
+source	@	forrás, erőforrás
+spa   	@	gyógyfürdő
+spa town	@	fürdőváros
+spade	@	ásó
+spar	@	árbócfa
+spare	@	tartalék, kímél
+sparrow	@	veréb
+spasm	@	görcs, roham
+speaker	@	hangszóró
+spectacle	@	látvány, szemüveg
+spectator	@	néző, szemlélő, szemtanú
+spill out	@	kiönt, kilöttynet
+spin	@	pörgés, forgás
+spin money out	@	pénzt beoszt
+spinster	@	vénlány
+spirit	@	lélek, szellem, pálinka
+spite	@	rosszakarat
+splendid	@	nagyszerű, ragyogó
+spoil	@	zsákmány, tönkre tesz, elront, megromlik, elkényeztet
+spool	@	orsó, cséve
+spouse	@	házastárs
+spread	@	kenni, szétterjeszt, kinyit
+spread	@	árkülönbség
+spreadsheet	@	táblázat
+spring	@	tavasz, forrás, rugó, ugrás
+sprinkle	@	szór
+spry	@	fürge, eszes
+spun	@	fonott
+square	@	tér, kerek
+squash	@	összezúz, présel, lapít
+squeak	@	nyikkan, cincog
+squinted	@	kancsal
+squirt out	@	kifecskendez
+stab	@	döfés, szúrás
+stack	@	kazal, rakás, halom
+staff	@	munkatársak, személyzet
+stag 	@	szarvas
+stain	@	folt, pácol, 
+stair	@	lépcső
+staircase	@	lépcsőház
+stale	@	száraz, nem friss
+stalker	@	cserkésző vadász
+stall	@	megreked, parkolóhely, bűntárs, árusbódé
+stamina	@	kitartás, állóképesség, életerő
+stand by sy	@	kiáll mellette
+stand the strain	@	bírja a terhelést
+stare	@	bámul
+starter	@	előétel
+starve	@	éhen halni, éhezni
+state	@	állam állapot, státusz
+statement	@	szla kivonat, kijelentés
+statute	@	alapszabály
+statutory	@	tv által előírt
+steadily	@	biztosan, szilárdan
+steady	@	nem mozdul, szilárd, merev, biztos
+steal	@	lop
+steep	@	meredek, beáztat
+steer	@	kormányoz, irányít
+stem from	@	ered, származik
+step	@	 mostoha, lépés, lábnyom
+stern	@	tat, far, ülep
+stew pot	@	bogrács
+stick	@	bot
+stiff	@	merev, feszes, kemény
+stifled	@	elfojt, elnyom
+still	@	még mindig
+stingy	@	fösvény, fukar, zsugori
+stingy	@	fullánk, méregfog, lendület, csíp, mar
+stir	@	kavarás, felbolydulás
+stock, warehouse	@	raktár
+stocks, shores	@	részvények
+stoic	@	szenvedélymentes
+stomach	@	 gyomor, has
+store	@	készlet, bolt, raktározni
+store of value	@	értékmegörző
+store of value	@	értékörző
+storke	@	gólya
+stove	@	kályha
+straight	@	egyenes
+straightjacket	@	kényszerzubbony
+stranded	@	sodrott(kötél), hajótörött
+strange	@	különös, furcsa
+strap	@	szíj, szíjaz
+strategic planning	@	stratégiai tervezés
+stretch	@	kinyújt
+strict	@	szigorú
+string	@	madzag
+stroke	@	roham, ütem
+stroll	@	sétál, kószál
+struggle	@	igyekezet
+struggle	@	harc, küzdelem (nem fegyveres)
+stubborn	@	makacs, akaratos, ellenálló (anyag)
+student	@	tanuló
+study tour	@	tanulmány út
+study tour	@	mánes
+stuff	@	több tárgy halomban
+stuffed	@	töltött
+stumbed	@	botlás, baklövés
+stun	@	meglep, megrémít, kábít
+subcontractor	@	alvállalkozó
+subject	@	tantárgy
+subjugate	@	leigáz
+sublime	@	fenséges, fenkölt, nagyszerű
+submit	@	benyújt
+subordinate	@	beosztott
+subscription	@	előfizetés
+subscription	@	részvény előrejelzés
+subsidised	@	támogatott (termék)
+subsidy	@	támogatás
+substance	@	tartalom, igazságtartalom
+substantial	@	alapos, kiadós, tápláló
+substantial	@	lényeges, fontos
+substitute	@	helyettesítő termék
+substract 	@	levon
+subtle	@	finom, kevésbé nyilvánvaló
+suburb	@	külváros
+successive	@	egymást követő
+successor	@	utód
+succulent	@	lédús, tápláló
+succumb	@	megadja magát, elbukik
+such	@	ilyen
+suddenly	@	hirtelen
+sue	@	beperel
+suffer	@	szenved, gyötör
+sufficient	@	elegendő
+suffrage	@	választójog
+suicide	@	öngyilkos 
+suitable	@	megfelelő, alkalmas 
+suitcase	@	táska, bőrönd
+sultry	@	fülledt, tikkasztó
+summer	@	nyár
+summon	@	behív, beidéz, felszólít
+sunbathe	@	napozni
+sunlight	@	napfény
+sunset	@	napnyugta
+superfluous	@	felesleges, hiábavaló
+supernatural	@	természetfeletti
+supervise	@	felügyel
+supper	@	vacsora
+supplement	@	pótlék
+supplier	@	beszállító
+supply	@	kínálat, ellát
+suppose	@	feltételez, gondol
+supranational	@	nemzetek feletti
+surface	@	felszín, felület
+surgery room	@	rendelő
+surpass	@	túlszárnyal
+surplus	@	többlet
+surprise	@	meglepetés
+surroundings	@	környezet
+survey	@	felmérés, áttekintés
+survival tour	@	túlélő túra
+survive	@	túlél
+suspect	@	gyanúsított, célpont
+suspended	@	függő, szünetelő
+suspicious	@	gyanú 
+suspiciously	@	gyanakvóan
+swaddle	@	pólya
+swallow	@	nyelni, nyelés
+swan	@	hattyú
+swap	@	cserélni
+swat	@	agyonüt (legyet)
+swear	@	esküszik
+swear-word	@	káromkodás
+sweat	@	izzad
+sweet	@	édes
+swing	@	lengés, ritmus
+switch	@	kapcsol, vált
+swivel	@	forgó, forgókapocs
+symptom	@	tünet
+table -cloth	@	asztalterítő
+tailor	@	szabó
+take	@	tenni, fogni, csinálni
+take away	@	elvitelre
+take breath	@	lélegzik
+take care	@	gondoskodni
+take it easy	@	könnyen vesz
+take it for granted	@	természetesnek vesz
+take medicine	@	orvosságot szedni
+take my breath away	@	elállítja a lélegzetét
+take part 	@	részt vesz
+takeover	@	felvásárlás
+talkative	@	beszédes
+tall	@	magasság
+tally	@	rováspálca, megjelölés
+tangible goods	@	tárgyi eszközök (számvitel)
+tank	@	tartály, medence
+tanned	@	napbarnított
+tap	@	csap
+tardiness	@	vonakodás, késlekedés
+tariff	@	tarifa, díjszabás, vám
+tarmac	@	aszfaltos kifutópálya
+tarnish	@	elhomályosul
+taste	@	ízlelés, íz
+tasteless	@	íztelen
+tasty	@	ízes
+taunt	@	gúnyos, barátságtalan, kötekedő
+tax authority	@	adóhatóság
+tax bracket	@	adósáv
+tax evasion	@	adócsalás
+tax evasion	@	adóelkerülés
+tax exemption	@	adómentesség
+tea-bag	@	tea filter
+teach	@	tanít, oktat
+tear	@	könny
+tear out	@	kitép
+tedious	@	egyhangú , unalmas
+tell it in a nutshell	@	dióhéjban, röviden
+tell sy of	@	leszid
+temporary	@	időszakos, átmeneti
+tempt 	@	csábít, megkísért
+temptation	@	csábtás, kisértés
+tenant	@	bérlő
+tender	@	tender, versenytárgyalás
+tense	@	feszült, igeidő
+tension	@	feszültség, feszesség
+tent	@	sátor
+tenuous	@	vékony, erőtlen, lényegtelen
+termination	@	befejezés, határ, megszűnés
+terms of contract	@	szerződési feltételek
+terms of delivery	@	szállítási feltételek
+terms of payment	@	fizetési feltételek
+terrain	@	terület, terep
+terrifying	@	borzasztó, rémisztő
+texture	@	álag
+that is why	@	ezért
+thausand	@	ezer
+the latter	@	az utóbbi
+the year in question	@	aktuális év, szóban forgó
+there	@	ott
+they tend to say	@	gyakran mondják
+thick	@	vastag, buta, sűrű
+thin, slim	@	sovány, vékony
+thought	@	gondolat
+thread	@	szál, fonál, cérna
+threat	@	fenyegetés
+threaten	@	megfenyeget
+thrilled	@	zaklatott
+thrive	@	boldogul, fejlődik, gyarapszik
+throughout	@	mindenütt
+throw	@	dobni
+thumb	@	hüvelykujj
+thunderstorm	@	mennydörgés
+tide	@	árapály, dagály
+tidiness	@	tisztaság
+tidy up	@	kitakarít, rendet rak
+tie	@	nyakkend
+tied	@	megköt
+tier	@	sor (tárgyak), megkötő
+tight	@	feszes, szűk
+tilt	@	dönt, hajlik, nekiront
+time deposit	@	lekötött betét
+tiny	@	apró
+tip	@	borravaló
+tiring	@	fárasztó
+tit	@	mellbimbó
+title	@	cím (könyv, film), beosztás
+to absorbed in sg	@	elmélyül vmiben, (könyv)
+to air the room	@	szellőztet
+to be at fault	@	hibázik
+to be in a huff	@	megneheztel
+to be in sick leave	@	betegszabadságon van
+to be out of stock	@	nincs raktáron
+to bump into sy	@	összefut vkivel
+to clarify	@	tisztáz
+to do overtime	@	túlórázik
+to do well at school	@	jól tanul
+to enthral, captivate	@	lenyűgöz 
+to evaulate	@	értékel
+to give orders	@	parancsolgat
+to go bust	@	csődbe megy
+to go steady with	@	jár valakivel
+to have a difference of opinion with sy	@	más véleményen van
+to have a say	@	van beleszólása
+to have sg in mind	@	vmit forgat a fejében
+to hire	@	felvesz, alkalmaz
+to levy	@	kivet
+to mop	@	felmosni
+to pile	@	tornyoz, halmoz
+to plug	@	bedugni
+to show	@	mutatni
+to take note	@	odafigyel, észrevesz
+to teld the truth	@	az igazat megvallva
+toad	@	varangyos béka
+toddler	@	kisgyerek
+toe	@	lábujj
+tomb	@	síremlék, sírhalom
+tongue	@	nyelv
+tonight	@	ma éjszaka
+too	@	is, túl
+tool	@	eszköz
+torch	@	zseblámpa, fáklya
+tore	@	tép, szakít
+tore (torus)	@	izom, magház
+torment	@	kínzás, gyötrelem
+torture	@	kínzás, gyötör
+tough	@	kemény
+toughness	@	keménység, erősség, tartósság
+tour guide	@	idegenvezető
+tow	@	vontat
+towel	@	törölköző
+track	@	csapás, nyom, pálya
+trademark	@	védjegy
+trailor- made	@	testreszabott
+traitor	@	áruló
+tranquilliser	@	nyugtató
+transaction	@	ügylet, tranzakció
+transferable	@	átruházható
+transition	@	áttérés, átmenet
+translucent	@	áttetsző
+transparent	@	átlátható
+transshipment	@	átrakodás
+traverse	@	átlós irányú, kereszttartó
+tray	@	tálca
+treat	@	bánni vkivel, kezelni
+treatment	@	bánásmód
+treaty	@	egyezmény
+tremble	@	remeg
+tremendous	@	szörnyű, rettenetes, borzasztó
+trench 	@	árok
+trial	@	próba, kisérlet, bírósági tárgyalás
+tribe	@	fajta, törzs (biológiai)
+trick	@	trükk
+tried	@	kipróbált, megviselt
+trifle	@	jelentéktelen
+trip	@	út, utazás, kirándulás
+triumph	@	győzelem siker, diadal
+trouble	@	hiba, baj, gond, zavar
+troublemaker	@	bajkeverő
+trout	@	pisztráng
+truly	@	igazán, valóban
+trust	@	megbízni, bízik
+truth	@	igaz 
+t-shirt	@	póló
+tug	@	húz,rángat, küszködik
+tunnel	@	alagút
+turn down	@	elutasít
+turn off	@	lekapcsol, elolt
+turnover	@	forgalom, (pénzügyi)
+turnover of staff	@	fluktuáció
+twinkle	@	csillogás
+tycoon	@	nagytőkés
+ugly	@	csúf
+ultimate	@	jelentős, alapvető
+umber	@	színárnyalat
+unbearable	@	elviselhetetlen
+uncle	@	nagybácsi
+under	@	alatt
+under wear	@	alsó viselet
+underpass	@	aluljáró
+undertake	@	elvállal
+undertaking	@	kötelezettségvállalás
+underwrite securities	@	értékpapírt jegyez
+undulating	@	hullámzó, változó
+uneasy silence	@	nyomasztó csend
+unemployed	@	munkanélküli
+unfortunately	@	szerencsétlen
+unison	@	egyszólamu, egyetértés
+unjust	@	igazságtalan
+unless	@	hacsak, kivéve ha
+unlimited partnership	@	kkt
+unmanageable	@	kezelhetetlen
+unpalatable	@	rosszízű, élvezhetetlen
+unpolite	@	udvariatlan
+unprecedented	@	példátlan
+unpredictable	@	előre nem látható
+unpromising	@	nem sokat ígérő
+unrelenting	@	hajthatatlan, elszánt, ádáz
+unreliable	@	megbízhatatlan
+unrivaled	@	páratlan
+unselfish	@	önzetlen
+untie	@	kiold
+unusual	@	furcsa
+unwilling	@	vonakodó
+unyielding	@	makacs, merev, szilárd
+upright	@	függőleges, egyenes, becsületes
+upset	@	izgatott
+uptight	@	izgul, feszült
+up-to-date	@	naprakész
+urban	@	városi
+urge	@	ösztönöz, sürget
+urgency	@	sürgősség, nyomás, szorítás
+urgent	@	sürgős 
+urgently	@	sürgősen
+useless	@	haszontalan
+ushered in (to a new era)	@	bevezetett
+usual	@	szokásos
+usualy	@	általában
+utilise	@	hasznosít
+utility	@	hasznosság
+vacancy	@	üresedés, megüresedett állás
+vague	@	bizonytalan, pontatlan
+vain	@	hiú, beképzelt, büszke
+vain	@	hiábavaló, felesleges
+valid	@	érvényes
+valley	@	völgy
+valueadded tax	@	áfa
+vanish	@	eltűnik
+vantage	@	előny, fölény, kedvező alkalom
+vaporized	@	porlaszt, elpárolog
+variety	@	változatosság
+vast	@	óriási, kiterjedt, végtelen
+vast	@	végtelen, széleskörű, telrjedelmes
+vastly	@	mérhetetlenül
+velvet	@	bársony
+venison	@	őz
+venture	@	kockázatos, kockáztat
+venture	@	vállalkozás
+venue	@	helyszín, tetthely
+verb	@	ige
+versatile	@	sokoldalú
+vertigo	@	szédülés
+vessel	@	hajó
+vestige	@	nyom, lábnyom, maradvány
+veterinary	@	állatorvos
+vexed	@	felbosszantott, ideges
+vicious circle	@	ördögi kör
+victim	@	áldozat
+village	@	falu
+vindicate	@	megvéd, megtart, érvényesít
+vinegar	@	ecet
+violently	@	erőszakosan, hevesen
+virgin	@	szűz
+virgo	@	szűz (csillagjegy)
+visage	@	arc, ábrázat, tekintet
+vision	@	látás, vízió
+vista	@	látkép, távlat, perspektíva
+vital	@	létfontosságú
+vocational training	@	szakképzés
+void	@	űr, semmi, érvénytelen, haszontalan
+volatile	@	gyorsan változó, kockázatos
+voluntary	@	önkéntes
+volunteer	@	önkéntes
+vommand system	@	tervgazdaság
+vortex	@	örvény, forgószél
+voucher	@	utalvány
+vulnerable	@	sebezhető
+wage	@	munkabér, (fizikai)
+waist	@	derék
+waitor	@	pincér
+waitress	@	pincérnő
+walk away	@	elmegy, elsétál
+wallet	@	pénztárca
+wanderer	@	vándor
+want	@	akarni
+warn	@	figyelmeztet
+was beginning to fall	@	elkezdett esni
+waste	@	pocsékol, elpusztít
+wasting	@	pazarlás
+watch	@	óra
+wave	@	hullám, legyint
+wavy	@	hullámos
+way	@	út, irány, szempont
+we have a lot in common	@	sok közös van bennünk
+we like the same things	@	ugyanazokat a dolgokat szeretjük
+wealth	@	gazdagság
+weaver	@	takács
+weird	@	hátborzongató, rejtelmes, bizarr
+welfare state	@	jóléti állam
+well	@	jól  
+well-balanced	@	kiegyensúlyozott
+well-groomed	@	ápolt
+well-known	@	jól ismert
+whale	@	 bálna
+whale of a time at a party	@	csudajól mulattunk
+whence	@	honnan, miből?
+which	@	amely
+which year are you in?	@	hányadikba jársz?
+while	@	amíg
+whimsical	@	szeszélyes, hóbortos, furcsa
+whispere	@	súg
+whistle	@	síp, fütyül
+white collar workers	@	szellemi dolgozó
+wholesoles trade	@	nagykereskedelem
+why don't we have	@	miért nem…?
+wicked	@	bűnös, veszedelmes, csintalan
+wide awake	@	teljesen ébren
+widespread	@	elterjed, elterjedt
+widow	@	özvegy
+widower	@	özvegy (ffi)
+wield	@	ügyesen bánik vmivel
+wife	@	feleség
+wig	@	paróka
+will	@	végrendelet, akarat
+winding up	@	felszámolás
+window	@	ablak
+window shop	@	kirakat nézegetés
+winter	@	tél 
+wipe	@	megtörlés, letörlés
+wisdom	@	bölcsesség
+wisely	@	bölcsen
+wish	@	kívánság
+witch	@	boszorkány
+with	@	vele
+withdraw money	@	pénzt kivesz (atm)
+withdrawal of a deposit	@	betét megszűntetése
+withdrew from music altogether	@	teljesen visszavonul a zenétől
+without	@	nélküle
+without engagement	@	kötelezettség nélküli
+witness	@	tanú
+witty	@	szellemes
+womb	@	anyaméh, anyaföld
+wondering	@	csodálkozás
+wooden spoon	@	fakanál
+woodpecker	@	fakopáncs
+wordrobe	@	beépített szekrény
+work	@	dolgozni, működni
+work for	@	dolgozni vhol (-ért)
+workload	@	munkamennyiség
+work-out	@	edzés
+workshop	@	műhely
+worn	@	kopott
+worse	@	rosszabb
+worth	@	ér, érték
+worthwile	@	megéri, érdemes
+wounded	@	megsebesült
+wrap	@	csomagolni
+wrap oneself	@	betakarja magát
+wrath	@	harag, düh
+wreath	@	koszorú
+wreck	@	hajótörés
+wring	@	megszorít, kifacsar
+wrist	@	csukló
+wry	@	savanyú ábrázat, elfintorodik
+yawn	@	ásít
+yet	@	már, még
+yew	@	tiszafa
+yield	@	hozam
+you are in their good books	@	kegyeibe fogad
+you are wecome	@	szívesen
+zeal	@	hév, buzgalom
+zodiac	@	horoszkóp
