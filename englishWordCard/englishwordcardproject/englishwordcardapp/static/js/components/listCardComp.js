@@ -1,6 +1,6 @@
 Vue.component('list-card-comp', {
     template: `
-        <div @click="flipListCard" class="list-card">
+        <div @click="flipListCard($event)" class="list-card">
             <div class="list-card-header">
                 <h3>{{nameOfList}}</h3>
             </div>  
@@ -30,7 +30,7 @@ Vue.component('list-card-comp', {
                     <div>kapcsoló</div>
                 </div>
             </div>
-            <div @click.stop="chooseList" class="list-card-bottom">
+            <div @click.stop="chooseList(listId)" class="list-card-bottom">
                 <h3>go to list</h3>
             </div>
             </template>
@@ -39,6 +39,7 @@ Vue.component('list-card-comp', {
     data() {
         return {
             aSide: true,
+            chosenListId: -1,
         }
     },
     computed:{
@@ -49,13 +50,14 @@ Vue.component('list-card-comp', {
         }
     },
     methods: {
-        flipListCard() {
+        flipListCard(e) {
             this.aSide = !this.aSide;
         },
-        chooseList() {
-            console.log('choose lists')
+        chooseList(e) {
+            app.chosenListId = e;
+            app.contentMode = 'card-component';
         }
     },
-    props: ['numOfLearnt', 'nameOfList'],
+    props: ['numOfLearnt', 'nameOfList', 'list-id'],
     inject: ["getIsEnglish"],
 });

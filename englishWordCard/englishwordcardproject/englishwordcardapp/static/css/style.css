@@ -33,6 +33,16 @@
     margin-left: 10rem!important;
 }
 
+.blue-btn, .green-btn {
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: var(--blue-button);
+    color: white;
+    border: 1px solid var(--blue-button);
+    border-radius: 5px;
+    min-width: 15%;
+}
+
 .form-error-msg {
     color: red;
 }
@@ -60,7 +70,7 @@ header {
 .content-wrapper {
     min-height: 100vh;
     padding-top: 90px;
-    background-color: var(--lighter-orange);
+    background-image: url("/static/img/confetti-whitebg.svg");
 }
 
 .signup-content-wrapper, .login-content-wrapper {
@@ -401,7 +411,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 7rem;
+    margin-top: 4rem;
     margin-bottom: 4rem;
 }
 
@@ -423,19 +433,28 @@ footer {
     font-size: 3rem;
 }
 
-.search-btn {
-    font-size: 1.5rem;
-    padding: 1rem;
-    background-color: var(--blue-button);
-    color: white;
-    border: 1px solid var(--blue-button);
+.search-input-wrapper {
+    width: 80%;
+    position: relative;
+}
+
+.search-input-wrapper > span {
+    position: absolute;
+    height: 100%;
+    width: 5%;
+    border: 1px solid red;
     border-radius: 5px;
-    min-width: 15%;
+    background: red;
+    color: white;
+    font-size: 2rem;
+    transform: translateX(-100%);
+    padding-top: 1%;
+    text-align: center;
 }
 
 .search-input {
     height: 100%;
-    width: 80%;
+    width: 100%;
     font-size: 2rem;
     border-radius: 5px;
     border: 1px solid var(--grey-box-shadow);
@@ -540,4 +559,244 @@ footer {
     color: var(--light-orange);
     font-weight: bold;
     font-size: 2rem;
+}
+
+/* cardComp */
+
+.card-comp-wrapper {
+    padding-top: 3rem;
+}
+
+.card-function-btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.card-funtion-btn-new {
+    text-align: center;
+}
+
+.card-funtion-btn-random {
+    text-align: center;
+}
+
+.card-funtion-btn-random > img {
+    height: 1.2rem;
+}
+
+.card-function-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.card-main-card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.card-wrapper {
+    background-color: white;
+    border: 1px solid var(--grey-box-shadow);
+    border-radius: 5px;
+    width: 90%;
+    height: 40rem;
+}
+
+.card-main-card-wrapper > img {
+    height: 40%;
+}
+
+.card-step-right, .card-step-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-range-of-card-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    -webkit-perspective: 10cm;
+    perspective: 10cm;
+    align-items: center;
+}
+
+.card-range-of-card {
+    height: 6rem;
+    width: 13rem;
+    border: 1px solid var(--grey-box-shadow);
+    border-radius: 10px;
+    margin: 0 1rem;
+    background-color: white;
+    -webkit-box-shadow: 0 0 10px 5px var(--grey-box-shadow);
+    -moz-box-shadow: 0 0 10px 5px var(--grey-box-shadow);
+    box-shadow: 0 0 10px 5px var(--grey-box-shadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lighter-orange);
+}
+
+.card-range-of-card > div, .card-main-word > span {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-break: anywhere;
+}
+
+.card-range-of-card-empty {
+    height: 2rem;
+    width: 13rem;
+    margin: 0 1rem;
+}
+
+/* range of card = roc*/
+.card-roc-main {
+    height: 9rem;
+    width: 14rem;
+    z-index: 5;
+    font-size: 2rem;
+}
+
+.card-roc-main-min-one {
+    height: 7rem;
+    width: 12rem;
+    -webkit-transform: rotateY(50deg);
+    transform: rotateY(50deg);
+    z-index: 4;
+    font-size: 1.5rem;
+}
+
+.card-roc-main-min-two {
+    height: 6rem;
+    width: 12rem;
+    -webkit-transform: rotateY(75deg);
+    transform: rotateY(75deg);
+    z-index: 3;
+    font-size: 1.5rem;
+}
+
+.card-roc-main-min-three {
+    height: 5rem;
+    width: 10rem;
+    -webkit-transform: rotateY(75deg);
+    transform: rotateY(75deg);
+    z-index: 2;
+}
+
+.card-roc-main-min-four {
+    height: 4rem;
+    width: 9rem;
+    -webkit-transform: rotateY(75deg);
+    transform: rotateY(75deg);
+    z-index: 1;
+}
+
+.card-roc-main-plus-one {
+    height: 7rem;
+    width: 12rem;
+    -webkit-transform: rotateY(-50deg);
+    transform: rotateY(-50deg);
+    z-index: 4;
+    font-size: 1.5rem;
+}
+
+.card-roc-main-plus-two {
+    height: 6rem;
+    width: 12rem;
+    -webkit-transform: rotateY(-75deg);
+    transform: rotateY(-75deg);
+    z-index: 3;
+    font-size: 1.5rem;
+}
+
+.card-roc-main-plus-three {
+    height: 5rem;
+    width: 10rem;
+    -webkit-transform: rotateY(-75deg);
+    transform: rotateY(-75deg);
+    z-index: 2;
+}
+
+.card-roc-main-plus-four {
+    height: 4rem;
+    width: 9rem;
+    -webkit-transform: rotateY(-75deg);
+    transform: rotateY(-75deg);
+    z-index: 1;
+}
+
+/* card main */
+
+.card-main-top-line, .card-main-bottom-line,
+.card-main-meanings-line, .card-main-example-line, .card-main-meanings-details-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.card-main-meanings-line, .card-main-example-line, .card-main-meanings-details-line {
+    justify-content: start;
+}
+
+.card-main-meanings-line > span, .card-main-example-line > span {
+    margin-left: 5rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card-main-meanings-details-line {
+    font-size: 1.2rem;
+    margin-left: 7rem;
+}
+
+.card-main-top-line-img, .card-main-bottom-line-img {
+    height: 2rem;
+}
+
+.card-main-switch-side-btn-wrapper, .card-main-word {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-main-switch-side-btn {
+    background-color: var(--green-button);
+    border-color: var(--green-button);
+}
+
+.card-main-word > span {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* card search */
+
+.card-search-match-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.card-search-match{
+    border: 1px solid var(--grey-box-shadow);
+    border-radius: 5px;
+    margin: 0.5rem;
+    font-size: 1.8rem;
+    padding: 1rem;
+    background-color: white;
+    display: flex;
+    flex-grow: 1;
+    max-width: 50rem;
+    justify-content: center;
 }

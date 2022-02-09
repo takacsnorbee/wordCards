@@ -3,7 +3,7 @@
 {% block content %}
 
 <div class="content-wrapper" id="this-is-content-page">
-    <component :is="contentMode" :lists="userLists" :words="userWords"></component>
+    <component :is="contentMode" :lists="userLists" :words="userWords" :list-id="chosenListId"></component>
 </div>
 
 {% endblock %}

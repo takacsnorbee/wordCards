@@ -118,13 +118,13 @@ def get_words(request):
         temp_lists = list(List_of_word.objects.filter(user_id=user_id))
         all_words = []
         for temp_list in temp_lists:
-            temp_words = list(Word.objects.filter(list_of_word_id=temp_list.id).values('word_away', 'word_home', 'sentence_away', 'sentence_home', 'word_description', 'learnt', 'synonyms', 'list_of_word_id'))
+            temp_words = list(Word.objects.filter(list_of_word_id=temp_list.id).values('word_away', 'word_home', 'sentence_away', 'sentence_home', 'word_description', 'learnt', 'synonyms', 'list_of_word_id', 'id'))
             for word in temp_words:
                 all_words.append(word)
         return JsonResponse({'words_result': all_words})
     except:
         temp_list = List_of_word.objects.get(list_name='basic_list')
-        temp_words = list(Word.objects.filter(list_of_word_id=temp_list.id).values('word_away', 'word_home', 'sentence_away', 'sentence_home', 'word_description', 'learnt', 'synonyms', 'list_of_word_id'))
+        temp_words = list(Word.objects.filter(list_of_word_id=temp_list.id).values('word_away', 'word_home', 'sentence_away', 'sentence_home', 'word_description', 'learnt', 'synonyms', 'list_of_word_id', 'id'))
         return JsonResponse({'words_result': temp_words})
 
 

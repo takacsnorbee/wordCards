@@ -14,7 +14,8 @@ Vue.component('list-component', {
                                 :key="list.id" 
                                 v-if="i == lists.lists_result.length-1 || i == lists.lists_result.length-2"
                                 :name-of-list="list.list_name"
-                                :num-of-learnt="calcLearnt(list.id)"></list-card-comp>
+                                :num-of-learnt="calcLearnt(list.id)"
+                                :list-id="list.id"></list-card-comp>
                 <div class="list-card list-card-add-new" @click.stop="addNewList"><img src="/static/img/content/cross.svg" ></div>
             </div>
         </div>

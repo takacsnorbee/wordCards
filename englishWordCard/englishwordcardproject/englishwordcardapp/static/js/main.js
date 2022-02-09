@@ -2,17 +2,21 @@ const app = new Vue({
     el: '#vue-app',
     delimiters: ['[[',']]'],
     data: {
+      // settings
       isEnglish: true,
       darkMode: false,
       isLoading: true,
+      contentMode: 'list-component',
+      chosenListId: -1,
+      // data from database
       userLists: [],
       userWords: [],
       homeContent: [],
+      // user ratings
       appRating: 0,
       rated: false,
       numOfRatings: 0,
       numOfStars: 0,
-      contentMode: 'list-component',
     },
     component: {
       loader: 'loading-screen',
