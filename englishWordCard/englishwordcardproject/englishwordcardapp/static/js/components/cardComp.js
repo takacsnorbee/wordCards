@@ -4,27 +4,27 @@ Vue.component('card-component', {
             <div class="card-function-btn-wrapper">
                 <div @click="addNewCard" class="blue-btn card-funtion-btn-new">{{isEnglish ? 'Add new card' : 'Új kártya'}}</div>
                 <span class="card-function-title">{{actualList.list_name}}</span>
-                <div @click="getRandomCard" class="blue-btn card-funtion-btn-random"><img src="/static/img/content/random-icon-button.svg">&nbsp;&nbsp;Random card</div>
+                <div @click="getRandomCard" class="blue-btn card-funtion-btn-random"><img src="/static/img/content/random-icon-button.svg">&nbsp;&nbsp;{{isEnglish ? 'Random card' : 'Véletlenszerű'}}</div>
             </div>
             <div class="card-main-card-wrapper">
                 <div class="card-step-left" @click="setSelectedIndexByBtn(-1)"><img src="/static/img/content/arrow-left.svg"></div>
                 <div class="card-wrapper">
                     <div class="card-main-top-line">
-                        <span v-if="sideAway">English - Hungarian</span>
-                        <span v-else>Hungarian - English</span>
+                        <span v-if="sideAway">{{isEnglish ? 'Foreign - Nativ' : 'Idegen - Anyanyelv'}}</span>
+                        <span v-else>{{isEnglish ? 'Nativ - Foreign' : 'Anyanyelv - Idegen'}}</span>
                         <span><img @click="deleteCardBtn" class="card-main-top-line-img" src="/static/img/content/trash-icon.svg"></span>
                     </div>
                     <div class="card-main-word">
                         <span>{{sideAway ? selectedWord.word_away : selectedWord.word_home}}</span>
                     </div>
                     <div class="card-main-meanings-line">
-                        <span>Meanings:</span>
+                        <span>{{isEnglish ? 'Meanings' : 'Jelentések'}}</span>
                     </div>
                     <div class="card-main-meanings-details-line">
                         <span>{{selectedWord.word_description.length === 0 ? 'NaN' : selectedWord.word_description}}</span>
                     </div>
                     <div class="card-main-example-line">
-                        <span>Example sentence:</span>
+                        <span>{{isEnglish ? 'Example sentence:' : 'Példa mondat'}}</span>
                     </div>
                     <div class="card-main-switch-side-btn-wrapper">
                         <button @click.prevent.stop="sideAway = !sideAway" class="green-btn card-main-switch-side-btn">Switch Side</button>
@@ -135,7 +135,7 @@ Vue.component('card-component', {
         setSelectedIndexByBtn(step) {
             if(this.selectedIndex === 0 && step === -1) {
                 return
-            } else if(this.selectedIndex === this.allWords.length && step === 1) {
+            } else if(this.selectedIndex === this.allWords.length-1 && step === 1) {
                 return
             } else {
                 let tempIndex = this.selectedIndex + step;
@@ -165,7 +165,11 @@ Vue.component('card-component', {
         },
         allWords: {
             get: function() {
-                return this.words.words_result;
+                if(this.isLearnt && this.isUnKnown) {
+                    return this.words.words_result.filter( e => e.list_of_word_id === this.listId);
+                } else {
+                    return this.isLearnt ? this.words.words_result.filter( e => e.list_of_word_id === this.listId && e.learnt === true) : this.words.words_result.filter( e => e.list_of_word_id === this.listId && e.learnt === false);
+                }
             }
         },
         selectedWord() {
@@ -185,6 +189,6 @@ Vue.component('card-component', {
             return this.allWords.slice(startIndex, endIndex);
         }
       },
-    props: ['lists', 'words', 'listId'],
+    props: ['lists', 'words', 'listId', 'isForeign', 'isLearnt', 'isUnKnown'],
     inject: ["getIsEnglish"]
 });

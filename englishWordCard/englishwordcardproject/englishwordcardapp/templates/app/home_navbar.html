@@ -18,7 +18,7 @@
                 <img v-else src="{% static 'img/hun-flag.svg' %}" alt="hun-flag">
             </div>
             <div class="home-dark-btn">
-                <switch-button v-model="darkMode" @toggle-dark-mode="setDarkMode"></switch-button>
+                <switch-button v-model="darkMode" @toggle-value="setDarkMode"></switch-button>
             </div>
         </div>
         <div>

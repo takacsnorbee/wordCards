@@ -6,7 +6,8 @@ Vue.component('list-component', {
                 <list-card-comp v-for="(list, i) in filteredList" 
                                 :key="list.id" 
                                 :name-of-list="list.list_name"
-                                :num-of-learnt="calcLearnt(list.id)"></list-card-comp>
+                                :num-of-learnt="calcLearnt(list.id)"
+                                :list-id="list.id"></list-card-comp>
             </div>
             <h1 class="list-comp-h1">{{this.isEnglish ? 'Latest lists' : 'Utólsó listáim'}}</h1>
             <div class="list-card-comp-wrapper">
@@ -16,7 +17,21 @@ Vue.component('list-component', {
                                 :name-of-list="list.list_name"
                                 :num-of-learnt="calcLearnt(list.id)"
                                 :list-id="list.id"></list-card-comp>
-                <div class="list-card list-card-add-new" @click.stop="addNewList"><img src="/static/img/content/cross.svg" ></div>
+                <div v-if="newListModal && lists.is_loged_in" class="list-card list-card-add-new" @click.stop="newListModal = !newListModal"><img src="/static/img/content/cross.svg" ></div>
+                <div v-else-if="!newListModal && lists.is_loged_in" class="list-card list-card-add-new-form-wrapper" v-click-outside="clickOutside">
+                    <div @click="newListModal = !newListModal" class="list-card-add-new-back-btn">
+                        <h3>{{isEnglish ?  'Cancel' : 'Mégsem'}}</h3>
+                    </div>
+                    <div class="list-card-add-new-body">
+                        <label>{{isEnglish ?  'List name:' :  'Lista neve'}}</label>
+                        <input v-model="listNameInput" type="text">
+                        <label>{{isEnglish ?  'Description:' :  'Leírás'}}</label>
+                        <input v-model="listDescInput" type="text">
+                    </div>
+                    <div @click="addNewList" class="list-card-add-new-save-btn">
+                        <h3>{{isEnglish ?  'Save' : 'Mentés'}}</h3>
+                    </div>
+                </div>
             </div>
         </div>
     `,
@@ -24,6 +39,9 @@ Vue.component('list-component', {
         return {
             searchInput: '',
             filteredList: [],
+            newListModal: true,
+            listNameInput: '',
+            listDescInput: '',
         }
     },
     component: {
@@ -52,24 +70,39 @@ Vue.component('list-component', {
         }
     },
     methods: {
+        clickOutside() {
+            this.newListModal = !this.newListModal;
+        },
         getSearch(text) {
             this.searchInput = text;
         },
         addNewList() {
-            console.log('add new list')
+            let tempName = this.listNameInput;
+            let tempDesc = this.listDescInput;
+            axios.defaults.xsrfHeaderName = "X-CSRFTOKEN";
+            axios.defaults.xsrfCookieName = "csrftoken";
+            axios.post('/addNewList/', JSON.stringify({'list_name': tempName, 'list_description': tempDesc}))
+                .then(function(response) {
+                    location.reload();
+                })
+                .catch(function (error) {
+                    console.log(error);
+                });
         },
         calcLearnt(id) {
             let sumOfLearnt = 0;
             let percentage = 0;
             let sumOfWords = 0;
             if(this.words.words_result != undefined){
-                sumOfWords = this.words.words_result.length;
                 this.words.words_result.map((e) => {
                     if(e.list_of_word_id === id) {
-                        sumOfLearnt++;
+                        sumOfWords++;
+                        if(e.learnt === true) {
+                            sumOfLearnt++;
+                        }
                     }
                 })
-                percentage = (sumOfLearnt / this.words.words_result.length * 100).toFixed(2);
+                percentage = (sumOfLearnt / sumOfWords * 100).toFixed(2);
             }
             return {'sumOfLearnt': sumOfLearnt, 'percentage': percentage, 'sumOfWords': sumOfWords};
         }

@@ -1,4 +1,5 @@
 from cgitb import reset
+import re
 from urllib import response
 from django.http import JsonResponse
 from django.shortcuts import render, redirect
@@ -133,10 +134,22 @@ def get_lists(request):
         User.objects.get(username=request.user)
         temp_user_id = request.user.id
         temp_list = list(List_of_word.objects.filter(user_id=temp_user_id).values('list_name', 'list_description', 'id', 'creation_time'))
-        return JsonResponse({'lists_result': temp_list})
+        return JsonResponse({'lists_result': temp_list, 'is_loged_in': True})
     except:
         temp_list = list(List_of_word.objects.filter(list_name='basic_list').values('list_name', 'list_description', 'id', 'creation_time'))
-        return JsonResponse({'lists_result': temp_list})
+        return JsonResponse({'lists_result': temp_list, 'is_loged_in': False})
+
+
+def add_new_list(request):
+    try:
+        user_id = request.user.id
+        temp_user = User.objects.get(id=user_id)
+        posted_list = json.loads(request.body.decode('utf-8'))
+        temp_list = List_of_word.objects.create(list_name=posted_list['list_name'], list_description=posted_list['list_description'], user_id=temp_user)
+        temp_list.save()
+        return redirect('home')
+    except:
+        return redirect('home')
 
 
 def get_home_content(request):

@@ -1,3 +1,21 @@
+Vue.directive ( 
+  'click-outside', {
+      bind: function(el, binding) {
+          const handler = (e) => {
+              if ((!el.contains(e.target) && el !== e.target)) {
+                  binding.value(e)
+              }
+          }
+          el.__vueClickOutside__ = handler
+          document.addEventListener('click', handler)
+          },
+      unbind: function(el, binding) {
+          document.removeEventListener('click', el.__vueClickOutside__)
+          el.__vueClickOutside__ = null
+      }
+  }
+);
+
 const app = new Vue({
     el: '#vue-app',
     delimiters: ['[[',']]'],
@@ -7,7 +25,7 @@ const app = new Vue({
       darkMode: false,
       isLoading: true,
       contentMode: 'list-component',
-      chosenListId: -1,
+      isLogedIn: false,
       // data from database
       userLists: [],
       userWords: [],
@@ -17,6 +35,11 @@ const app = new Vue({
       rated: false,
       numOfRatings: 0,
       numOfStars: 0,
+      // select list
+      chosenListId: -1,
+      isForeign: false,
+      isLearnt: true,
+      isUnKnown: true,
     },
     component: {
       loader: 'loading-screen',
@@ -44,11 +67,13 @@ const app = new Vue({
         app.numOfRatings = response.data.numOfRatings;
       },
       sendRating() {
-        axios.defaults.xsrfHeaderName = "X-CSRFTOKEN"
-        axios.defaults.xsrfCookieName = "csrftoken"
+        this.isLoading = true;
+        axios.defaults.xsrfHeaderName = "X-CSRFTOKEN";
+        axios.defaults.xsrfCookieName = "csrftoken";
         axios.post('/setRatings/', JSON.stringify({'rating': app.numOfStars}))
         .then(function(response) {
           app.refreshRating(response);
+          this.isLoading = false;
         })
         .catch(function (error) {
           console.log(error);

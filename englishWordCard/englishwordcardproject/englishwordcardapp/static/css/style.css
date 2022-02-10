@@ -75,6 +75,8 @@ header {
 
 .signup-content-wrapper, .login-content-wrapper {
     height: 100vh;
+    background-image: none;
+    background-color: var(--lighter-orange);
 }
 
 /* nav */
@@ -92,6 +94,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.5rem;
 }
 
 .nav-lang-btn, .nav-dark-btn, .nav-user-btn {
@@ -284,6 +287,7 @@ header {
 .home-nav-rating-text {
     text-align: right;
     margin-right: 1rem;
+    font-size: 1.2rem;
 }
 
 .home-nav-pipe {
@@ -504,7 +508,7 @@ footer {
     width: 6rem;
 }
 
-.list-card-header, .list-card-bottom {
+.list-card-header, .list-card-bottom, .list-card-add-new-back-btn, .list-card-add-new-save-btn {
     height: 25%;
     background-color: var(--green-button);
     color: white;
@@ -518,16 +522,16 @@ footer {
     text-transform:capitalize;
 }
 
-.list-card-bottom {
+.list-card-bottom, .list-card-add-new-save-btn {
     background-color: var(--blue-button);
     border-radius: 0 0 5px 5px;
 }
 
-.list-card-header > h3, .list-card-bottom > h3 {
+.list-card-header > h3, .list-card-bottom > h3, .list-card-add-new-back-btn > h3, .list-card-add-new-save-btn > h3 {
     font-size: 2rem;
 }
 
-.list-card-body-up, .list-card-body-down {
+.list-card-body-up, .list-card-body-down, .list-card-add-new-body {
     height: 75%;
     font-size: 1.5rem;
     display: flex;
@@ -536,7 +540,7 @@ footer {
     justify-content: center;
 }
 
-.list-card-body-down {
+.list-card-body-down, .list-card-add-new-body {
     height: 50%;
 }
 
@@ -554,11 +558,32 @@ footer {
     font-size: 2rem;
 }
 
-
 .list-card-word-num-wrapper > div:nth-child(1) {
     color: var(--light-orange);
     font-weight: bold;
     font-size: 2rem;
+}
+
+.list-card-add-new-body > input {
+    border: 1px solid var(--grey-box-shadow);
+    border-radius: 5px;
+}
+
+.list-card-add-new-body > label {
+    margin: 0.5rem;
+}
+
+.list-card-card-side-wrapper-back, 
+.list-card-learnt-wrapper-back, 
+.list-card-not-learnt-wrapper-back {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.list-card-switch-wrapper {
+    margin: 0.2rem 1rem;
 }
 
 /* cardComp */
