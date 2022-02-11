@@ -78,6 +78,9 @@ const app = new Vue({
         .catch(function (error) {
           console.log(error);
         });
+      },
+      refreshLists(responseLists) {
+        this.userLists = responseLists;
       }
     },
     provide: function() {
@@ -90,8 +93,8 @@ const app = new Vue({
 
       // refress appRating
       axios.get('/getRatings')
-      .then(function (response) {
-        app.refreshRating(response);
+      .then((response) => {
+        this.refreshRating(response);
       })
       .catch(function (error) {
         console.log(error)
@@ -108,14 +111,14 @@ const app = new Vue({
       // get home page data if user is on the home page
       if (!!document.getElementById("this-is-home-page")) {
         axios.get('/getHomeContent')
-        .then(function (response) {
-          app.homeContent = [...response.data.home_content];
+        .then((response) => {
+          this.homeContent = [...response.data.home_content];
         })
         .catch(function (error) {
           console.log(error);
         })
-        .then(function() {
-          app.isLoading = false;
+        .then(() => {
+          this.isLoading = false;
         })
       }
       
@@ -123,22 +126,22 @@ const app = new Vue({
       if (!!document.getElementById("this-is-content-page")) {
         // get words
         axios.get('/getLists')
-          .then(function (response) {
-            app.userLists = response.data;
+          .then((response) => {
+            this.userLists = response.data;
           })
-          .catch(function (error) {
+          .catch((error) => {
             console.log(error);
           })
 
         axios.get('/getWords')
-          .then(function (response) {
-            app.userWords = response.data;
+          .then((response) => {
+            this.userWords = response.data;
           })
-          .catch(function (error) {
+          .catch((error) => {
             console.log(error);
           })
-          .then(function () {
-            app.isLoading = false;
+          .then( () => {
+            this.isLoading = false;
           });
       }
 

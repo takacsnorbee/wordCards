@@ -66,6 +66,7 @@ Vue.component('card-component', {
             selectedIndex: 0,
             sideAway: true,
             searchOn: false,
+            responseWords: [],
         }
     },
     component: {
@@ -74,12 +75,30 @@ Vue.component('card-component', {
     watch: {
         searchInput() {
             this.searchOn = this.searchInput === '' ? false : true;
-        }
+        },
+        responseWords() {
+            this.$emit('refresh-lists', this.responseWords);
+        },
     }
     ,
     methods: {
         deleteCardBtn() {
-            console.log('törlés')
+            console.log('törlés');
+            if(this.selectedWord.id === -1) {
+                console.log('ezt nem törölheted')
+                return
+            } else {
+                axios.defaults.xsrfHeaderName = "X-CSRFTOKEN";
+                axios.defaults.xsrfCookieName = "csrftoken";
+                axios.post('/addNewList/', JSON.stringify({'list_name': tempName, 'list_description': tempDesc}))
+                    .then((response) => {
+                        this.newListModal = true;
+                        this.responseList = {...response.data};
+                    })
+                    .catch(function (error) {
+                        console.log(error);
+                    });
+            }
         },
         editCardBtn() {
             console.log('szerkesztés')
@@ -165,6 +184,22 @@ Vue.component('card-component', {
         },
         allWords: {
             get: function() {
+                let tempWordsList = this.words.words_result.filter( e => e.list_of_word_id === this.listId)
+                if(tempWordsList.length === 0) {
+                    let tempWord = {
+                        id: -1,
+                        learnt: false,
+                        list_of_word_id: this.listId,
+                        sentence_away: 'test one',
+                        sentence_home: 'teszt egy',
+                        synonyms: '',
+                        word_away: 'test',
+                        word_home: 'teszt',
+                        word_description: '-'
+                    }
+                    tempWordsList.push(tempWord);
+                    return tempWordsList;
+                }
                 if(this.isLearnt && this.isUnKnown) {
                     return this.words.words_result.filter( e => e.list_of_word_id === this.listId);
                 } else {

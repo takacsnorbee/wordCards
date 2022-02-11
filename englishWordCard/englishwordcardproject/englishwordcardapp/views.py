@@ -147,7 +147,8 @@ def add_new_list(request):
         posted_list = json.loads(request.body.decode('utf-8'))
         temp_list = List_of_word.objects.create(list_name=posted_list['list_name'], list_description=posted_list['list_description'], user_id=temp_user)
         temp_list.save()
-        return redirect('home')
+        temp_list = list(List_of_word.objects.filter(user_id=user_id).values('list_name', 'list_description', 'id', 'creation_time'))
+        return JsonResponse({'lists_result': temp_list, 'is_loged_in': True})
     except:
         return redirect('home')
 

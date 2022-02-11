@@ -42,6 +42,7 @@ Vue.component('list-component', {
             newListModal: true,
             listNameInput: '',
             listDescInput: '',
+            responseList: [],
         }
     },
     component: {
@@ -52,7 +53,9 @@ Vue.component('list-component', {
         searchInput() {
             let listsId = [];
             this.filteredList.length = 0;
+            console.log('kint')
             if(this.words.words_result != undefined){
+                console.log('bent')
                 this.words.words_result.map((e) => {
                     if(e.word_away.includes(this.searchInput) || e.word_home.includes(this.searchInput)) {
                         if (!listsId.includes(e.list_of_word_id)) {
@@ -67,6 +70,9 @@ Vue.component('list-component', {
                 })
             }
             return null;
+        },
+        responseList() {
+            this.$emit('refresh-lists', this.responseList);
         }
     },
     methods: {
@@ -82,8 +88,9 @@ Vue.component('list-component', {
             axios.defaults.xsrfHeaderName = "X-CSRFTOKEN";
             axios.defaults.xsrfCookieName = "csrftoken";
             axios.post('/addNewList/', JSON.stringify({'list_name': tempName, 'list_description': tempDesc}))
-                .then(function(response) {
-                    location.reload();
+                .then((response) => {
+                    this.newListModal = true;
+                    this.responseList = {...response.data};
                 })
                 .catch(function (error) {
                     console.log(error);
@@ -115,5 +122,5 @@ Vue.component('list-component', {
       }
     },
     props: ['lists', 'words'],
-    inject: ["getIsEnglish"]
+    inject: ['getIsEnglish']
 });
