@@ -81,6 +81,9 @@ const app = new Vue({
       },
       refreshLists(responseLists) {
         this.userLists = responseLists;
+      },
+      refreshWords(responseWords) {
+        this.userWords = responseWords;
       }
     },
     provide: function() {

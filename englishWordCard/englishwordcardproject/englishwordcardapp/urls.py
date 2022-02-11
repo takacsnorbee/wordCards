@@ -17,4 +17,5 @@ urlpatterns = [
     path('getRatings/', views.get_ratings, name='get_ratings'),
     path('setRatings/', views.set_ratings, name='set_ratings'),
     path('addNewList/', views.add_new_list, name='add_new_list'),
+    path('deleteWord/', views.delete_word, name='delete_word'),
 ]

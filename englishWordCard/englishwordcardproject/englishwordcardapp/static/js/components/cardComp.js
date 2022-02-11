@@ -25,6 +25,13 @@ Vue.component('card-component', {
                     </div>
                     <div class="card-main-example-line">
                         <span>{{isEnglish ? 'Example sentence:' : 'Példa mondat'}}</span>
+                        <span>
+                            <span v-for="(fragment, i) in splittedWordToModify" class="card-main-example-fragment" :key="fragment.id" @click.stop="chooseFragment(fragment.id)">{{fragment.word}}</span>
+                        </span>
+                        <span>
+                            <span v-if="wordsPickedByUser.length !== 0" class="card-main-example-rebuild">{{wordsPickedByUser}}</span>
+                            <img v-if="wordsPickedByUser.length !== 0" src="/static/img/content/x-mark.svg" @click="resetPickedWords">
+                        </span>
                     </div>
                     <div class="card-main-switch-side-btn-wrapper">
                         <button @click.prevent.stop="sideAway = !sideAway" class="green-btn card-main-switch-side-btn">Switch Side</button>
@@ -67,6 +74,9 @@ Vue.component('card-component', {
             sideAway: true,
             searchOn: false,
             responseWords: [],
+            splittedWordsToReset: [],
+            splittedWordToModify: [],
+            wordsPickedByUser: '',
         }
     },
     component: {
@@ -77,23 +87,39 @@ Vue.component('card-component', {
             this.searchOn = this.searchInput === '' ? false : true;
         },
         responseWords() {
-            this.$emit('refresh-lists', this.responseWords);
+            this.$emit('refresh-words', this.responseWords);
         },
     }
     ,
     methods: {
+        resetPickedWords() {
+            this.splittedWordToModify = [...this.splittedWordsToReset];
+            this.wordsPickedByUser = '';
+        },
+        chooseFragment(fragmentId) {
+            let tempWord = [];
+            this.splittedWordToModify.filter((e) => {
+                if(fragmentId === e.id) {
+                    this.wordsPickedByUser += e.word;
+                    this.wordsPickedByUser += ' ';
+                } else {
+                    tempWord.push(e);
+                }
+            });
+            this.splittedWordToModify = tempWord;
+        },
         deleteCardBtn() {
             console.log('törlés');
-            if(this.selectedWord.id === -1) {
+            let tempId = this.selectedWord.id;
+            if(this.tempId === -1) {
                 console.log('ezt nem törölheted')
                 return
             } else {
                 axios.defaults.xsrfHeaderName = "X-CSRFTOKEN";
                 axios.defaults.xsrfCookieName = "csrftoken";
-                axios.post('/addNewList/', JSON.stringify({'list_name': tempName, 'list_description': tempDesc}))
+                axios.post('/deleteWord/', JSON.stringify({'word_id': tempId, 'list_id': this.listId}))
                     .then((response) => {
-                        this.newListModal = true;
-                        this.responseList = {...response.data};
+                        this.responseWords = {...response.data};
                     })
                     .catch(function (error) {
                         console.log(error);
@@ -206,6 +232,16 @@ Vue.component('card-component', {
                     return this.isLearnt ? this.words.words_result.filter( e => e.list_of_word_id === this.listId && e.learnt === true) : this.words.words_result.filter( e => e.list_of_word_id === this.listId && e.learnt === false);
                 }
             }
+        },
+        splittedWords() {
+            let tempArray = this.allWords[this.selectedIndex].sentence_away.split(' ');
+            tempArray.sort(() => { return 0.5 - Math.random() });
+            let tempArrayModified = [];
+            tempArray.map((e,i) => {
+                tempArrayModified.push({'id': i, 'word': e});
+            })
+            this.splittedWordToModify = [...tempArrayModified];
+            this.splittedWordsToReset = [...tempArrayModified];
         },
         selectedWord() {
             return this.allWords[this.selectedIndex];

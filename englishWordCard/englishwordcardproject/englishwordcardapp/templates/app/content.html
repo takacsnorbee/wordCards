@@ -6,7 +6,8 @@
     <component :is="contentMode" 
                 :lists="userLists" :words="userWords" :list-id="chosenListId" 
                 :is-foreign="isForeign" :is-learnt="isLearnt" :is-un-known="isUnKnown"
-                @refresh-lists="refreshLists"></component>
+                @refresh-lists="refreshLists"
+                @refresh-words="refreshWords"></component>
 </div>
 
 {% endblock %}

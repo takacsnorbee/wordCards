@@ -1,5 +1,4 @@
 from cgitb import reset
-import re
 from urllib import response
 from django.http import JsonResponse
 from django.shortcuts import render, redirect
@@ -158,7 +157,20 @@ def get_home_content(request):
     return JsonResponse({'home_content': temp_content})
 
 
+def delete_word(request):
+    try:
+        user_id = request.user.id
+        temp_user = User.objects.get(id=user_id)
+        word_id = json.loads(request.body.decode('utf-8'))['word_id']
+        list_id = json.loads(request.body.decode('utf-8'))['list_id']
+        Word.objects.filter(list_of_word_id=list_id, id=word_id).delete()
+        return redirect('get_words')
+    except:
+        return redirect('home')
+
+
 # This function was used to upload the basic words to database
+
 # def vegrehajt(request):
 #     this_list = List_of_word.objects.get(list_name='basic_list')
 #     Word.objects.all().delete()
