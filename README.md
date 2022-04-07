@@ -1,4 +1,14 @@
-# wordCards
+## wordCards
+
+## Built With
+
+- HTML 
+- CSS
+- Python
+- Django
+- Vue.js
+
+## Install
 
 -install python on your pc.
 	https://www.python.org/downloads/
